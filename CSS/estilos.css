@@ -1,0 +1,1268 @@
+* {
+    padding: 0%;
+    margin: 0%;
+   /* box-sizing: border-box;*/
+}
+
+/*Color de Fondo*/
+body {
+    background-color: black;
+}
+
+/*Logo*/
+.logo-colabo{
+    width: 100%;
+    height: 150px;
+}
+/* header {
+    border: 1px solid cornflowerblue;
+    width: 95%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 30px ;
+    background-color: black;
+} */
+
+
+/* Estilos del menu*/
+.contenedor-menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+}
+.contenedor-menu ul {
+    font-size: 20px;
+    color: white;
+    margin-left: 25%;
+}
+
+/******************Inicio********************/
+
+.carusel-portadas {
+    /* background-color: rgb(14, 13, 13); */
+    background-image: url(/imagenes/fondo-corusel-2.jpg);
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    border: 2px rgb(31, 29, 29) solid;
+    width: 100%;
+    height: 400px;
+    margin:auto;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items:center;
+}
+.carusel-cartas img{
+    padding-left: 40%;
+    height: 398px;
+
+}
+ 
+
+.quienes-somos{
+    border: 1px solid black;
+    width: 100%;
+}
+.titulo {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 50px;
+    margin: auto;
+}
+
+.parrafo {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    line-height: 40px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+/*Formulario*/
+.contenedor-form {
+    background-color:rgb(19, 17, 17);
+    width: 80%; 
+    height: 100%;
+    margin: auto;
+    border: 1px rgb(19, 17, 17) solid;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.formulario{
+    width:100% ;
+    height: 100%;
+    padding: auto;
+    margin: auto;
+}
+.contenedor-form .formulario .indicacion{
+    display: block;
+    color:red;
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+}
+.contenedor-form .formulario .form-input{
+border: 1px solid white;
+width: 100%;
+height: 25px;
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+font-size: 20px;
+color: white;
+font-family: monospace;
+text-align: center;
+}
+.form-textarea{
+    border: 1px solid white;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+.contenedor-form .formulario .titForm span{
+    font: 60px;
+    color: bisque;
+} 
+.contenedor-form .formulario h2{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 20px;
+}
+.contenedor-form .formulario button{
+    border:3px solid black;
+    width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+/* .formulario {
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 2px whitesmoke dotted;
+}
+
+.indicacion {
+    color: white;
+} */
+
+/*pie de pagina*/
+.contenedorPiePag{
+    border-top: 2px white dotted;
+    margin-top: 15px;
+}
+.piepag {
+   margin-top: 20px;
+    list-style-position: inherit;
+    text-align: center;
+}
+
+.contacto {
+    font-size: 25px;
+    font-family: monospace;
+    margin-left: 50px;
+    color: white;
+    display: inline;
+    list-style-type: none;
+}
+
+/***************estilo de colaboraciones****************/
+/*header*/
+.MenuCol {
+    text-align: center;
+}
+
+.ItemCol {
+    display: inline;
+    list-style-type: none;
+}
+
+
+
+/*main*/
+
+.titulo-colabo {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: monospace;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.descripcion-colabo{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.contenedor-colabo{
+    border: 1px solid red;
+    background-color: white;
+    width: 100%;
+    margin-top: 5px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5px;
+    padding: 0%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.contenedor-portadas{
+    border: 1px solid black;
+    width: 25%;
+}
+.contenedor-portadas-cinco{
+    border: 1px solid black;
+    width: 20%;
+}
+.contenedor-portadas-tres{
+    border: 1px solid black;
+    width: 33.3%;
+}
+.carrusel-colabo{
+    width: 60%;
+    margin: auto;
+}
+/************estilo galeria**************/
+
+.MenuGale {
+    text-align: center;
+}
+
+.ItemGale {
+    display: inline;
+    list-style-type: none;
+}
+.menu-interno{
+    background-color: aquamarine;
+    width: 100%;
+
+}
+
+.titulo-galeria {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.subtitulo-galeria {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.descripcion-galeria {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.galeria-uno {
+    background-color: black;
+    border: 2px black solid;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    padding: top 5px; ;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:first baseline;
+}
+
+/* .galeria-dos {
+    background-color: darkolivegreen;
+    border: 2px white solid;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+} */
+
+.fotos-videos {
+    background-color: darkolivegreen;
+    border: 4px white solid;
+    padding: 1px 1px 1px 1px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: auto;
+    width: 30%;
+}
+.fotos-videos-dos {
+    background-color: darkolivegreen;
+    border: 4px white solid;
+    padding: 1px 1px 1px 1px;
+    width: 49%;
+    height: auto;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+/************estilo de noticias************/
+.MenuNoti {
+    text-align: center;
+}
+
+.ItemNoti {
+    display: inline;
+    list-style-type: none;
+}
+
+/*Main*/
+/*concurso*/
+.titulo-not {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.subtitulo-not {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-top: 2px white solid;
+    text-transform: uppercase;
+}
+
+.indicaciones-not {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.link-concur {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*proximamente. en esta seccion saldra la informacion de los libros que estan por salir*/
+
+.subtitulo-prox {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-top: 2px white solid;
+    text-transform: uppercase;
+}
+
+.contenedor-prox {
+    background-color: darkolivegreen;
+    border: 2px white solid;
+    width: 1300px;
+    height: 700px;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+}
+
+.portada-prox {
+    background-color: darkolivegreen;
+    border: 2px solid white;
+    height: 600px;
+    width: 300px;
+}
+
+.descripcion-prox {
+    background-color: darkolivegreen;
+    border: 1px darkolivegreen solid;
+    width: 800px;
+    height: 6000;
+}
+
+.descripcion-prox h3 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.descripcion-prox p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+/*queres escrbir tu columna*/
+.subtitulo-column{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border-top: 2px white solid;
+    text-transform: uppercase;
+}
+
+.contenedor-column{
+    background-color: darkolivegreen;
+    border: 2px white solid;
+    width: 1500px;
+    height: 590px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.formulario-column{
+    background-color: darkolivegreen;
+    border: 2px darkolivegreen solid;
+    width: 20px;
+    height: 5pxs;
+    font-size: 30px;
+}
+
+
+/*****************estilo de publicaciones******************/
+.MenuPubli {
+    text-align: center;
+}
+
+.ItemPubli {
+    display: inline;
+    list-style-type: none;
+}
+/*main*/
+.titulo-publi{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+}
+.subtitulo-publi{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.carrusel-publi{
+    width: 50%;
+    margin: auto;
+}
+.titulo-interno{
+    color: black;
+    font-size: 40px;
+}
+.descripcion-intena{
+color: black;
+font-size: 30px;
+}
+/********** estilo trabajos *********/
+.MenuTrab {
+    text-align: center;
+}
+
+.ItemTrab {
+    display: inline;
+    list-style-type: none;
+}
+
+/*main*/
+
+.titulo-trab{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+.contenedor-par-trab{
+    border: solid 1px red;
+    width: 95%;
+    height: 200px;
+    margin: auto;
+}
+.parrafo-trab{
+color: white;
+text-align: center;
+font-size: 23px;
+line-height: 30px;
+}
+
+.contenedor-trab{
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+    font-family: monospace;
+    width: 95%;
+    height: 90%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+     align-items: center; 
+}
+
+.trab-no-publi-1{
+    background-color: black;
+    border: 1px white solid;
+    width: 99%;
+    height: 750px;
+    margin: 1px 3px 1px 3px;
+    align-items: center;
+}
+.trab-no-publi-1 h2{
+    text-align: center;
+    font-size: 40px;
+    /* font-family: monospace; */
+    text-decoration:underline;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-1 p{
+    text-align: center;
+    font-size: 20px;
+    /* font-family: monospace; */
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-1 nav{
+    text-align: center;
+    display: inline;
+}
+.trab-no-publi-1 nav ul{
+    margin-bottom: 10px;
+} 
+.trab-no-publi-1 nav ul li{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.trab-no-publi-2{
+    background-color: black;
+    border: 1px white solid;
+    width: 99%;
+    height:1970px ;
+    margin:1px 1px 1px 1px;
+}
+.trab-no-publi-2 h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-2 p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-2 nav{
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+}
+.trab-no-publi-2 nav ul{
+    margin-bottom: 10px;
+} 
+.trab-no-publi-2 nav ul li{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.trab-no-publi-3{
+    background-color: black;
+    border: 1px white solid;
+    width: 99%;
+    height: 1970px;
+    margin: 1px 1px 1px 1px;
+}
+.trab-no-publi-3 h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-3 p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-3 nav{
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+}
+.trab-no-publi-3 nav ul{
+    margin-bottom: 10px;
+}
+.trab-no-publi-3 nav ul li{
+    list-style: circle;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.trab-no-publi-4{
+    background-color: black;
+    border: 1px white solid;
+    width: 99%;
+    height: 1950px;
+    margin: 1px 1px 1px 1px;
+}
+.trab-no-publi-4 h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-4 p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-4 nav{
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+}
+.trab-no-publi-4 nav ul{
+    margin-bottom: 10px;
+}
+.trab-no-publi-4 nav ul li{
+    list-style: circle;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.trab-no-publi-5{
+    background-color: black;
+    border: 1px white solid;
+    width: 99%;
+    height: 800px;
+    margin: 1px 1px 1px 1px;
+}
+.trab-no-publi-5 h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-5 p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-5 nav{
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+}
+.trab-no-publi-5 nav ul{
+    margin-bottom: 10px;
+}
+.trab-no-publi-5 nav ul li{
+    list-style: circle;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.trab-no-publi-6{
+    background-color: black;
+    border: 1px white solid;
+    width: 99%;
+    height: 1450px;
+    margin: 1px 1px 1px 1px;
+}
+.trab-no-publi-6 h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-6 p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-6 nav{
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+}
+.trab-no-publi-6 nav ul{
+    margin-bottom: 10px;
+}
+.trab-no-publi-6 nav ul li{
+    list-style: circle;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.trab-no-publi-7{
+    background-color: black;
+    border: 1px white solid;
+    width: 99%;
+    height: 2630px;
+    margin: 1px 1px 1px 1px;
+}
+.trab-no-publi-7 h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-7 p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-7 nav{
+    text-align: center;
+    display: inline;
+    font-size: 20px;   
+}
+.trab-no-publi-7 nav ul{
+    margin-bottom: 10px;
+}
+.trab-no-publi-7 nav ul li{
+    list-style: circle;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.trab-no-publi-8{
+    background-color: black;
+    border: 1px white solid;
+    width: 99%;
+    height: 1450px;
+    margin: 1px 1px 1px 1px;
+}
+.trab-no-publi-8 h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-8 p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-8 nav{
+    text-align: center;
+    display: inline;
+    font-size: 20px;   
+}
+.trab-no-publi-8 nav ul{
+    margin-bottom: 10px;
+}
+.trab-no-publi-8 nav ul li{
+    list-style: circle;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.trab-no-publi-9{
+    background-color: black;
+    border: 1px white solid;
+    width: 99%;
+    height: 2630px;
+    margin: 1px 1px 1px 1px;
+}
+.trab-no-publi-9 h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-9 p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.trab-no-publi-9 nav{
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+}
+.trab-no-publi-9 nav ul{
+    margin-bottom: 10px;
+}
+.trab-no-publi-9 nav ul li{
+    list-style: circle;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.items-trab{
+    display: inline;
+    list-style: circle;
+}
+/*portadas*/
+/*----AND JUSTICE FOR ALL----*/
+.contenedor-port{
+    width: 99%;
+    height: 75%;
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+}
+
+.portada-trab{
+    /*background-color: darkolivegreen;*/
+    border: 1px white solid;
+    width: 50vw;
+    height: 62vh;
+    /*margin: auto;*/
+    margin-left: 0px;
+}
+ .andJusticeUno{
+background-image: url(/imagenes/trabajos/And-Justice-For-All/And-Justice-Uno.jpeg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+.andJusticeDos{
+background-image: url(/imagenes/trabajos/And-Justice-For-All/And-Justice-Dos.jpeg);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+.andJusticeTres{
+    background-image: url(/imagenes/trabajos/And-Justice-For-All/And-Justice-Tres.jpeg);
+    background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+/*----ECDISIS----*/
+.contenedor-port2{
+    width: 99%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.contenedor-port2 .portada-trab{
+    border: 1px white solid;
+     width: 25vw;
+    height: 62vh;
+    border: 1px white solid; 
+    margin-left: 0px;
+    margin-bottom: 5px;
+}
+ .ecdisisUno{
+    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-uno.jpeg);
+    background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+.ecdisisDos{
+    background-image: url(/imagenes/trabajos/Ecdisis/ecdidis-dos.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecdisisTres{
+    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-tres.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecdisisCuatro{
+    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-cuatro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecdisisCinco{
+    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-cinco.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecdisisSeis{
+    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-seis.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecdisisSiete{
+    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-siete.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ecdisisOcho{
+    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-ocho.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*----EL JAFARI----*/
+.contenedor-port3{
+    width: 99%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.contenedor-port3 .portada-trab{
+    border: 1px white solid;
+     width: 25vw;
+    height: 62vh;
+    border: 1px white solid; 
+    margin-left: 0px;
+margin-bottom: 5px;
+}
+.eljafariUno{
+    background-image:url(/imagenes/trabajos/El-Jafari/jafari-uno.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eljafariDos{
+    background-image:url(/imagenes/trabajos/El-Jafari/jafari-dos.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eljafariTres{
+    background-image:url(/imagenes/trabajos/El-Jafari/jafari-tres.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eljafariCuatro{
+    background-image:url(/imagenes/trabajos/El-Jafari/jafari-cuatro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eljafariCinco{
+    background-image:url(/imagenes/trabajos/El-Jafari/jafari-cinco.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eljafariSeis{
+    background-image:url(/imagenes/trabajos/El-Jafari/jafari-seis.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eljafariSiete{
+    background-image:url(/imagenes/trabajos/El-Jafari/jafari-siete.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eljafariOcho{
+    background-image:url(/imagenes/trabajos/El-Jafari/jafari-ocho.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*----EL QUISTE----*/
+.contenedor-port4{
+    width: 99%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content:center;
+}
+.contenedor-port4 .portada-trab{
+    border: 1px white solid;
+     width: 25vw;
+    height: 62vh;
+    border: 1px white solid; 
+    margin-left: 0px;
+margin-bottom: 5px;
+}
+.contenedor-port4 .portada-trab4{
+    border: 1px white solid;
+     width: 30vw;
+    height: 40vh;
+    border: 1px white solid; 
+    margin-left: 5px;
+margin-bottom: 5px;
+}
+.quisteUno{
+    background-image:url(/imagenes/trabajos/El-Quiste/quiste-uno.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quisteDos{
+    background-image:url(/imagenes/trabajos/El-Quiste/quiste-dos.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quisteTres{
+    background-image:url(/imagenes/trabajos/El-Quiste/quiste-tres.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quisteCuatro{
+    background-image:url(/imagenes/trabajos/El-Quiste/quiste-cuatro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quisteCinco{
+    background-image:url(/imagenes/trabajos/El-Quiste/quiste-cinco.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quisteSeis{
+    background-image:url(/imagenes/trabajos/El-Quiste/quiste-seis.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.quisteSiete{
+    background-image:url(/imagenes/trabajos/El-Quiste/quiste-siete.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*----HABLADOR----*/
+.contenedor-port5{
+    width: 99%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content:center;
+}
+.contenedor-port5 .portada-trab{
+    border: 1px white solid;
+     width: 25vw;
+    height: 66vh;
+    border: 1px white solid; 
+    margin-left: 0px;
+margin-bottom: 5px;
+}
+.habladorUno{
+    /* background-image:url(/imagenes/trabajos/Hablador/hablador-uno.jpeg); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.habladorDos{
+    background-image:url(/imagenes/trabajos/Hablador/hablador-dos.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.habladorTres{
+    background-image:url(/imagenes/trabajos/Hablador/hablador-tres.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*----LOS RICOS SOMOS NOSOTROS----*/
+.contenedor-port6{
+    width: 99%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content:center;
+}
+.contenedor-port6 .portada-trab{
+    border: 1px white solid;
+     width: 25vw;
+    height: 66vh;
+    border: 1px white solid; 
+    margin-left: 0px;
+margin-bottom: 5px;
+}
+.losricosUno{
+    background-image:url(/imagenes/trabajos/Los-Ricos-Somos-Nosotros/los-ricos-uno.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.losricosDos{
+    background-image:url(/imagenes/trabajos/Los-Ricos-Somos-Nosotros/los-ricos-dos.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.losricosTres{
+    background-image:url(/imagenes/trabajos/Los-Ricos-Somos-Nosotros/los-ricos-tres.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.losricosCuatro{
+    background-image:url(/imagenes/trabajos/Los-Ricos-Somos-Nosotros/los-ricos-cuatro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*----LUCHA DESPAREJA----*/
+.contenedor-port7{
+    width: 99%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content:center;
+}
+.contenedor-port7 .portada-trab{
+    border: 1px white solid;
+     width: 25vw;
+    height: 62vh;
+    border: 1px white solid; 
+    margin-left: 0px;
+margin-bottom: 5px;
+}
+.luchaUno{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-uno.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaDos{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-dos.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaTres{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-tres.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaCuatro{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-cuatro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaCinco{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-cinco.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaSeis{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-seis.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaSiete{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-siete.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaOcho{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-ocho.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaNueve{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-nueve.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaDiez{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-diez.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.luchaOnce{
+    background-image:url(/imagenes/trabajos/Lucha-Despareja/lucha-once.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*----PERROS DE HIELO----*/
+.contenedor-port8{
+    width: 99%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content:center;
+}
+.contenedor-port8 .portada-trab{
+    border: 1px white solid;
+     width: 25vw;
+    height: 62vh;
+    border: 1px white solid; 
+    margin-left: 0px;
+margin-bottom: 5px;
+}
+/*----UN POCO DE SUERTE----*/
+.contenedor-port9{
+    width: 99%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content:center;
+}
+.contenedor-port9 .portada-trab{
+    border: 1px white solid;
+     width: 25vw;
+    height: 62vh;
+    border: 1px white solid; 
+    margin-left: 0px;
+margin-bottom: 5px;
+}

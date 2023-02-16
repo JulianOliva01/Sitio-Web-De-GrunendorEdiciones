@@ -1,0 +1,20 @@
+<img class="img-fluid logo-colabo" src="/imagenes/logo-Menu.png" alt="Logo">
+        <nav>
+            <ul class="MenuCol">
+                <li class="ItemCol">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="ItemCol">
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li class="ItemCol">
+                    <a href="noticias.html">Noticias</a>
+                </li>
+                <li class="ItemCol">
+                    <a href="publicaciones.html">Publicaciones</a>
+                </li>
+                <li class="ItemCol">
+                    <a href="trabajos.html">Trabajos</a>
+                </li>
+            </ul>
+        </nav>
