@@ -345,17 +345,6 @@ h2{
     align-items:first baseline;
 }
 
-/* .galeria-dos {
-    background-color: darkolivegreen;
-    border: 2px white solid;
-    height: auto;
-    width: 80%;
-    margin: auto;
-    padding: 30px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-} */
 
 .fotos-videos {
     background-color: darkolivegreen;
@@ -466,34 +455,7 @@ h2{
     line-height: 50px;
 }
 
-/*queres escrbir tu columna*/
-.subtitulo-column{
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    border-top: 2px white solid;
-    text-transform: uppercase;
-}
 
-.contenedor-column{
-    background-color: darkolivegreen;
-    border: 2px white solid;
-    width: 1500px;
-    height: 590px;
-    margin: auto;
-    padding: 30px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-.formulario-column{
-    background-color: darkolivegreen;
-    border: 2px darkolivegreen solid;
-    width: 20px;
-    height: 5pxs;
-    font-size: 30px;
-}
 
 
 /*****************estilo de publicaciones******************/
