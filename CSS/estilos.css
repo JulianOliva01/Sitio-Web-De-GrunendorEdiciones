@@ -11,30 +11,30 @@ body {
 
 /*Logo*/
 .logo-colabo {
-    width: 65%;
-    height: 100%;
-    margin-left: 10px;
+    width: 50%;
+    /* height: 100%; */
+    /* margin: 10px; */
 }
 
 
 /* Estilos del menu*/
 .contenedor-menu {
     width: 100%;
-    height: 10%;
+    /* height: 10%; */
     background-color: rgb(0, 0, 0);
 }
 
 .contenedor-menu ul {
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-    margin: auto;
+    margin: 10px;
 }
 
 /******************Inicio********************/
 
 .carusel-portadas {
     /* background-color: rgb(14, 13, 13); */
-    background-image: url(/imagenes/fondo-corusel-2.jpg);
+    background-image: url(../imagenes/fondo-corusel-2.jpg);
     background-size: 100% 600px;
     background-repeat: no-repeat;
     border: 2px rgb(31, 29, 29) solid;
@@ -578,19 +578,36 @@ h2 {
     font-size: 40px;
 }
 
-.carrusel-publi {
-    width: 50%;
-    margin: auto;
+.contenedor-publicaciones{
+    background-color: darkgreen;
+    border: 1px white solid;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-.titulo-interno {
-    color: black;
-    font-size: 40px;
+.img-descr-p{
+    border: 1px solid white;
+    width: 20%;
+    /* height: 100%; */
+    margin: 5px;
 }
 
-.descripcion-intena {
-    color: black;
-    font-size: 30px;
+.img-p{
+    background-color: red;
+    width: 100%;
+    height: 60%;
+}
+
+.img-p img{
+    width: 100%;
+}
+
+.descripcion-p{
+    background-color: aqua;
+    width: 100%;
+    height: 40%;
 }
 
 /********** estilo trabajos *********/
@@ -613,7 +630,7 @@ h2 {
 }
 
 .contenedor-par-trab {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 95%;
     height: 200px;
     margin: auto;
@@ -627,9 +644,9 @@ h2 {
 }
 
 .contenedor-trab {
-    background-color: black;
+    /* background-color: black; */
     color: white;
-    border: 2px white solid;
+    /* border: 2px white solid; */
     font-family: monospace;
     width: 95%;
     height: 90%;
@@ -641,11 +658,12 @@ h2 {
 }
 
 .trab-no-publi-1 {
-    background-color: black;
+    /* background-color: black; */
     border: 1px white solid;
     width: 99%;
-    height: 750px;
-    margin: 1px 3px 1px 3px;
+    /* height: 750px; */
+    margin: 5px 5px 20px 5px;
+    padding: auto;
     align-items: center;
 }
 
@@ -684,8 +702,8 @@ h2 {
     background-color: black;
     border: 1px white solid;
     width: 99%;
-    height: 1970px;
-    margin: 1px 1px 1px 1px;
+    /* height: 1970px; */
+    margin:5px 5px 20px 5px ;
 }
 
 .trab-no-publi-2 h2 {
@@ -722,8 +740,8 @@ h2 {
     background-color: black;
     border: 1px white solid;
     width: 99%;
-    height: 1970px;
-    margin: 1px 1px 1px 1px;
+    /* height: 1970px; */
+    margin: 5px 5px 20px 5px;
 }
 
 .trab-no-publi-3 h2 {
@@ -761,8 +779,8 @@ h2 {
     background-color: black;
     border: 1px white solid;
     width: 99%;
-    height: 1950px;
-    margin: 1px 1px 1px 1px;
+    /* height: 1950px; */
+    margin: 5px 5px 20px 5px;
 }
 
 .trab-no-publi-4 h2 {
@@ -799,8 +817,8 @@ h2 {
     background-color: black;
     border: 1px white solid;
     width: 99%;
-    height: 800px;
-    margin: 1px 1px 1px 1px;
+    /* height: 800px; */
+    margin: 5px 5px 20px 5px;
 }
 
 .trab-no-publi-5 h2 {
@@ -838,8 +856,8 @@ h2 {
     background-color: black;
     border: 1px white solid;
     width: 99%;
-    height: 1450px;
-    margin: 1px 1px 1px 1px;
+    /* height: 1450px; */
+    margin: 5px 5px 20px 5px;
 }
 
 .trab-no-publi-6 h2 {
@@ -877,8 +895,8 @@ h2 {
     background-color: black;
     border: 1px white solid;
     width: 99%;
-    height: 2630px;
-    margin: 1px 1px 1px 1px;
+    /* height: 2630px; */
+    margin: 5px 5px 20px 5px;
 }
 
 .trab-no-publi-7 h2 {
@@ -915,8 +933,8 @@ h2 {
     background-color: black;
     border: 1px white solid;
     width: 99%;
-    height: 1450px;
-    margin: 1px 1px 1px 1px;
+    /* height: 1450px; */
+    margin: 5px 5px 20px 5px;
 }
 
 .trab-no-publi-8 h2 {
@@ -953,8 +971,8 @@ h2 {
     background-color: black;
     border: 1px white solid;
     width: 99%;
-    height: 2630px;
-    margin: 1px 1px 1px 1px;
+    /* height: 2630px; */
+    margin: 5px 5px 20px 5px;
 }
 
 .trab-no-publi-9 h2 {
@@ -1001,37 +1019,19 @@ h2 {
     display: flex;
     flex-direction: row;
     margin: auto;
+   
 }
 
 .portada-trab {
     /*background-color: darkolivegreen;*/
-    border: 1px white solid;
+    /* border: 5px white solid; */
     width: 50vw;
     height: 62vh;
     /*margin: auto;*/
-    margin-left: 0px;
+    margin-left: 5px;
+    padding: 5px;
 }
 
-.andJusticeUno {
-    background-image: url(/imagenes/trabajos/And-Justice-For-All/And-Justice-Uno.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.andJusticeDos {
-    background-image: url(/imagenes/trabajos/And-Justice-For-All/And-Justice-Dos.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.andJusticeTres {
-    background-image: url(/imagenes/trabajos/And-Justice-For-All/And-Justice-Tres.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /*----ECDISIS----*/
 .contenedor-port2 {
@@ -1045,69 +1045,16 @@ h2 {
 }
 
 .contenedor-port2 .portada-trab {
-    border: 1px white solid;
+    /* border: 1px white solid; */
     width: 25vw;
     height: 62vh;
-    border: 1px white solid;
-    margin-left: 0px;
-    margin-bottom: 5px;
+    /* border: 1px white solid; */
+    margin: 5px;
+    padding: 5px;
 }
 
-.ecdisisUno {
-    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-uno.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.ecdisisDos {
-    background-image: url(/imagenes/trabajos/Ecdisis/ecdidis-dos.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.ecdisisTres {
-    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-tres.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ecdisisCuatro {
-    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-cuatro.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ecdisisCinco {
-    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-cinco.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ecdisisSeis {
-    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-seis.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ecdisisSiete {
-    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-siete.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ecdisisOcho {
-    background-image: url(/imagenes/trabajos/Ecdisis/ecdisis-ocho.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /*----EL JAFARI----*/
 .contenedor-port3 {
@@ -1121,69 +1068,14 @@ h2 {
 }
 
 .contenedor-port3 .portada-trab {
-    border: 1px white solid;
+    /* border: 1px white solid; */
     width: 25vw;
     height: 62vh;
-    border: 1px white solid;
-    margin-left: 0px;
-    margin-bottom: 5px;
+    /* border: 1px white solid; */
+    margin: 5px;
+    padding: 5px;
 }
 
-.eljafariUno {
-    background-image: url(/imagenes/trabajos/El-Jafari/jafari-uno.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.eljafariDos {
-    background-image: url(/imagenes/trabajos/El-Jafari/jafari-dos.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.eljafariTres {
-    background-image: url(/imagenes/trabajos/El-Jafari/jafari-tres.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.eljafariCuatro {
-    background-image: url(/imagenes/trabajos/El-Jafari/jafari-cuatro.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.eljafariCinco {
-    background-image: url(/imagenes/trabajos/El-Jafari/jafari-cinco.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.eljafariSeis {
-    background-image: url(/imagenes/trabajos/El-Jafari/jafari-seis.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.eljafariSiete {
-    background-image: url(/imagenes/trabajos/El-Jafari/jafari-siete.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.eljafariOcho {
-    background-image: url(/imagenes/trabajos/El-Jafari/jafari-ocho.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /*----EL QUISTE----*/
 .contenedor-port4 {
@@ -1197,71 +1089,24 @@ h2 {
 }
 
 .contenedor-port4 .portada-trab {
-    border: 1px white solid;
+    /* border: 1px white solid; */
     width: 25vw;
     height: 62vh;
-    border: 1px white solid;
-    margin-left: 0px;
-    margin-bottom: 5px;
+    /* border: 1px white solid; */
+    margin: 5px;
+    padding: 5px;
 }
 
 .contenedor-port4 .portada-trab4 {
-    border: 1px white solid;
+    /* border: 1px white solid; */
     width: 30vw;
     height: 40vh;
-    border: 1px white solid;
-    margin-left: 5px;
-    margin-bottom: 5px;
+    /* border: 1px white solid; */
+    margin: 5px;
+    padding: 5px;
 }
 
-.quisteUno {
-    background-image: url(/imagenes/trabajos/El-Quiste/quiste-uno.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.quisteDos {
-    background-image: url(/imagenes/trabajos/El-Quiste/quiste-dos.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.quisteTres {
-    background-image: url(/imagenes/trabajos/El-Quiste/quiste-tres.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.quisteCuatro {
-    background-image: url(/imagenes/trabajos/El-Quiste/quiste-cuatro.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.quisteCinco {
-    background-image: url(/imagenes/trabajos/El-Quiste/quiste-cinco.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.quisteSeis {
-    background-image: url(/imagenes/trabajos/El-Quiste/quiste-seis.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.quisteSiete {
-    background-image: url(/imagenes/trabajos/El-Quiste/quiste-siete.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /*----HABLADOR----*/
 .contenedor-port5 {
@@ -1275,34 +1120,15 @@ h2 {
 }
 
 .contenedor-port5 .portada-trab {
-    border: 1px white solid;
+    /* border: 1px white solid; */
     width: 25vw;
     height: 66vh;
-    border: 1px white solid;
-    margin-left: 0px;
-    margin-bottom: 5px;
+    /* border: 1px white solid; */
+    margin: 5px;
+    padding: 5px;
 }
 
-.habladorUno {
-    /* background-image:url(/imagenes/trabajos/Hablador/hablador-uno.jpeg); */
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.habladorDos {
-    background-image: url(/imagenes/trabajos/Hablador/hablador-dos.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.habladorTres {
-    background-image: url(/imagenes/trabajos/Hablador/hablador-tres.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /*----LOS RICOS SOMOS NOSOTROS----*/
 .contenedor-port6 {
@@ -1316,41 +1142,15 @@ h2 {
 }
 
 .contenedor-port6 .portada-trab {
-    border: 1px white solid;
+    /* border: 1px white solid; */
     width: 25vw;
     height: 66vh;
-    border: 1px white solid;
-    margin-left: 0px;
-    margin-bottom: 5px;
+    /* border: 1px white solid; */
+    margin: 5px;
+    padding: 5px;
 }
 
-.losricosUno {
-    background-image: url(/imagenes/trabajos/Los-Ricos-Somos-Nosotros/los-ricos-uno.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.losricosDos {
-    background-image: url(/imagenes/trabajos/Los-Ricos-Somos-Nosotros/los-ricos-dos.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.losricosTres {
-    background-image: url(/imagenes/trabajos/Los-Ricos-Somos-Nosotros/los-ricos-tres.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.losricosCuatro {
-    background-image: url(/imagenes/trabajos/Los-Ricos-Somos-Nosotros/los-ricos-cuatro.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /*----LUCHA DESPAREJA----*/
 .contenedor-port7 {
@@ -1364,90 +1164,15 @@ h2 {
 }
 
 .contenedor-port7 .portada-trab {
-    border: 1px white solid;
+    /* border: 1px white solid; */
     width: 25vw;
     height: 62vh;
-    border: 1px white solid;
-    margin-left: 0px;
-    margin-bottom: 5px;
+    /* border: 1px white solid; */
+    margin: 5px;
+    padding: 5px;
 }
 
-.luchaUno {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-uno.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.luchaDos {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-dos.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.luchaTres {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-tres.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.luchaCuatro {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-cuatro.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.luchaCinco {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-cinco.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.luchaSeis {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-seis.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.luchaSiete {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-siete.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.luchaOcho {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-ocho.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.luchaNueve {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-nueve.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.luchaDiez {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-diez.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.luchaOnce {
-    background-image: url(/imagenes/trabajos/Lucha-Despareja/lucha-once.jpeg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 /*----PERROS DE HIELO----*/
 .contenedor-port8 {
@@ -1461,12 +1186,12 @@ h2 {
 }
 
 .contenedor-port8 .portada-trab {
-    border: 1px white solid;
+    /* border: 1px white solid; */
     width: 25vw;
     height: 62vh;
-    border: 1px white solid;
-    margin-left: 0px;
-    margin-bottom: 5px;
+    /* border: 1px white solid; */
+    margin: 5px;
+    padding: 5px;
 }
 
 /*----UN POCO DE SUERTE----*/
@@ -1481,10 +1206,10 @@ h2 {
 }
 
 .contenedor-port9 .portada-trab {
-    border: 1px white solid;
+    /* border: 1px white solid; */
     width: 25vw;
     height: 62vh;
-    border: 1px white solid;
-    margin-left: 0px;
-    margin-bottom: 5px;
+    /* border: 1px white solid; */
+    margin: 5px;
+    padding: 5px;
 }
