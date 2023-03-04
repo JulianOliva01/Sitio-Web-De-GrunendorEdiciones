@@ -40,22 +40,23 @@ body {
     border: 2px rgb(31, 29, 29) solid;
     width: 100%;
     /* height: 500px; */
-    margin:auto;
+    margin: auto;
     padding: 1px 20% 1px 20%;
     border-radius: 6px;
-     display: flex;
+    display: flex;
     flex-flow: row nowrap;
-   
-} 
 
-.carusel-cartas{
+}
+
+.carusel-cartas {
     /* padding-left: 40%; */
     width: 35%;
     margin-left: 30%;
     /* padding-left: 50%; */
-  
+
 }
-.carusel-cartas img{
+
+.carusel-cartas img {
     width: 100%;
     margin: 5px;
     padding: 5px;
@@ -80,6 +81,16 @@ body {
     width: 49%;
 }
 
+@keyframes desaparecetexto {
+    0% {
+        opacity: 0%;
+    }
+   
+    100% {
+        opacity:100% ;
+    }
+}
+
 .titulo {
     color: white;
     text-align: center;
@@ -87,6 +98,9 @@ body {
     font-family: monospace;
     font-size: 50px;
     margin: auto;
+    animation-name: desaparecetexto;
+    animation-iteration-count: 3;
+    animation-duration: 3s;
 }
 
 .parrafo {
@@ -96,6 +110,9 @@ body {
     /* line-height: 3rem; */
     font-size: 25px;
     margin-top: 10px;
+   animation-name: desaparecetexto;
+    animation-iteration-count: 3;
+    animation-duration: 3s;
 }
 
 
@@ -253,12 +270,12 @@ h2 {
 
 .contenedor-colabo {
     width: 100%;
-    margin: auto; 
+    margin: auto;
     padding: 5px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
- align-items:center;
+    align-items: center;
 }
 
 .contenedor-portadas {
@@ -269,10 +286,10 @@ h2 {
     /* padding: 5px; */
     transition: height 2s, width 2s;
     opacity: 60%;
-   
+
 }
 
-.contenedor-portadas:hover{
+.contenedor-portadas:hover {
     border: 1px solid white;
     width: 45%;
     margin: 1px;
@@ -286,15 +303,15 @@ h2 {
     width: 20%;
     margin: 5px;
     transition: height 2s, width 2s;
-opacity: 60%;
+    opacity: 60%;
 }
 
-.contenedor-portadas-cinco:hover{
+.contenedor-portadas-cinco:hover {
     border: 2px white solid;
     width: 35%;
     opacity: 100%;
 
-} 
+}
 
 .contenedor-portadas-tres {
     border: 5px solid white;
@@ -304,9 +321,9 @@ opacity: 60%;
     opacity: 60%;
 }
 
-.contenedor-portadas-tres:hover{
+.contenedor-portadas-tres:hover {
     border: 1px solid white;
-    width:45% ;
+    width: 45%;
     opacity: 100%;
 }
 
@@ -377,8 +394,8 @@ opacity: 60%;
 } */
 
 
-.fotos-videos{
-    background-color: darkolivegreen;
+.fotos-videos {
+    /* background-color: darkolivegreen; */
     border: 4px white solid;
     padding: 1px 1px 1px 1px;
     margin-left: 5px;
@@ -388,12 +405,12 @@ opacity: 60%;
     width: 30%;
     opacity: 85%;
     /* animation-name: desaparecefotos;
-    animation-duration: 3s; */   
+    animation-duration: 3s; */
 }
 
-.fotos-videos:hover{
+.fotos-videos:hover {
     width: 32%;
-opacity: 100%;
+    opacity: 100%;
 }
 
 .fotos-videos-dos {
@@ -409,7 +426,8 @@ opacity: 100%;
     animation-duration: 3s; */
     opacity: 85%;
 }
-.fotos-videos-dos:hover{
+
+.fotos-videos-dos:hover {
     width: 53%;
     opacity: 100%;
 
@@ -464,39 +482,70 @@ opacity: 100%;
     text-transform: uppercase;
 }
 
+.contendor-nuevo-proyecto-uno {
+    /*  background-color: rgb(29, 27, 27);   */
+    /* border: 5px solid white;  */
+    width: 80%;
+    /* height: 700px; */
+    padding: 50x;
+    margin: 3% 10% 3% 10%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    transition: 1.5s;
+}
+
+.contendor-nuevo-proyecto-uno:hover {
+    width: 83%;
+    /* border: 0px black solid;  */
+    background-color: black;
+
+
+}
+
+
+
 .contendor-nuevo-proyecto {
     /* background-color: darkolivegreen;
-    border: 2px white solid; */
-    width: 100%;
+    border: 2px white solid;  */
+    width: 80%;
     /* height: 700px; */
     padding: 30px;
-    margin: 5px;
+    margin: auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
 
-.madafaka-camon{
+.madafaka-camon {
     width: 30%;
+    margin: auto;
 }
-.madafaka-camon img{
+
+.madafaka-camon img {
     width: 100%;
 }
-.descripcion-cm{
+
+.descripcion-cm {
     width: 45%;
 }
 
-.concurso-mate{
+
+.concurso-mate {
     width: 35%;
 }
-.concurso-mate img{
+
+
+.concurso-mate img {
     width: 100%;
 }
-.portada-inundacion{
+
+.portada-inundacion {
     width: 25%;
     margin: 10px;
 }
-.portada-inundacion img{
+
+.portada-inundacion img {
     width: 100%;
 }
 
@@ -546,9 +595,11 @@ opacity: 100%;
     color: white;
     margin-top: 30px;
     text-align: center;
-    font-size: 25px;
+    font-size: 17px;
     /* line-height: 30px; */
+    transition: 1s;
 }
+
 
 .carta-cronicas-azul {
     width: 25%;
@@ -560,20 +611,22 @@ opacity: 100%;
     width: 100%;
 }
 
-.cartas-proyecto-ca{
+.cartas-proyecto-ca {
     width: 20%;
     margin: 5px;
 }
-.cartas-proyecto-ca img{
+
+.cartas-proyecto-ca img {
     width: 100%;
 }
 
-.cartas-proyecto-cv{
+.cartas-proyecto-cv {
     width: 20%;
     margin: auto;
     padding: 5px;
 }
-.cartas-proyecto-cv img{
+
+.cartas-proyecto-cv img {
     width: 100%;
 }
 
@@ -603,7 +656,7 @@ opacity: 100%;
     font-size: 40px;
 }
 
-.contenedor-publicaciones{
+.contenedor-publicaciones {
     /* background-color: darkgreen; */
     /* border: 1px white solid; */
     width: 100%;
@@ -611,41 +664,56 @@ opacity: 100%;
     flex-flow: row wrap;
     justify-content: space-around;
 }
+ 
 
-.img-descr-p{
-    border: 3px solid white;
+
+.img-descr-p {
+    border: 2px solid white;
     width: 20%;
     /* height: 100%; */
     margin: 5px;
+    padding: 5px;
+    transition: 1s;
 }
 
-.img-p{
+.img-descr-p:hover{
+    width: 22%;
+    background-color: black;
+    border: 0px solid black;
+    padding: 2%;
+}
+.img-p {
     /* background-color: red; */
     width: 100%;
     height: 55%;
-    padding: auto;
+    /* padding: auto; */
 }
 
-.img-p img{
+.img-p img {
     width: 100%;
 }
 
-.descripcion-p{
+.descripcion-p {
     /* background-color: aqua; */
     width: 100%;
     height: 45%;
-    padding: 5px;
+    /* padding: 5px; */
 }
-.descripcion-p h3{
+
+.descripcion-p h3 {
     color: white;
     text-align: center;
     margin-top: 20px;
 }
-.descripcion-p ul li{
+
+
+.descripcion-p ul li {
     color: white;
-list-style:circle;
+    list-style: circle;
 }
-.descripcion-p p{
+
+
+.descripcion-p p {
     color: white;
     text-align: center;
     font-weight: bold;
@@ -745,7 +813,7 @@ list-style:circle;
     border: 1px white solid;
     width: 99%;
     /* height: 1970px; */
-    margin:5px 5px 20px 5px ;
+    margin: 5px 5px 20px 5px;
 }
 
 .trab-no-publi-2 h2 {
@@ -1061,7 +1129,7 @@ list-style:circle;
     display: flex;
     flex-direction: row;
     margin: auto;
-   
+
 }
 
 .portada-trab {
