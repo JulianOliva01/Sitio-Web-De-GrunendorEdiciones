@@ -45,8 +45,12 @@ body {
     border-radius: 6px;
     display: flex;
     flex-flow: row nowrap;
-
+    animation-name: desaparecetexto;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
 }
+
+
 
 .carusel-cartas {
     /* padding-left: 40%; */
@@ -125,11 +129,15 @@ body {
 /*Formulario*/
 .contenedor-form {
     background-color: rgb(19, 17, 17);
-    width: 49%;
-    height: 100%;
+    width: 30%;
+    height: 50%;
     margin: auto;
     border: 1px rgb(19, 17, 17) solid;
     border-radius: 5%;
+    animation-name: desaparecetexto;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    box-shadow: 5px 5px 10px black;
 }
 
 .formulario {
@@ -145,9 +153,9 @@ body {
 
 .contenedor-form .formulario .indicacion {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-family: monospace;
 }
 
@@ -159,7 +167,7 @@ body {
     margin: auto;
     border-radius: 5px;
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: monospace;
     text-align: center;
 }
@@ -172,7 +180,7 @@ body {
     margin-bottom: 20px;
     border-radius: 5px;
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: monospace;
     text-align: center;
 }
@@ -847,13 +855,13 @@ h2 {
 .trab-no-publi-1:hover{
     width: 100%;
     background-color: black;
+    font-size: 2%;
+  
 }
 
 .trab-no-publi-1 h2 {
     text-align: center;
     font-size: 40px;
-    /* font-family: monospace; */
-    text-decoration: underline;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -891,11 +899,11 @@ h2 {
 .trab-no-publi-2:hover{
     width: 100%;
     background-color: black;
+    font-size: 2%;
 }
 
 .trab-no-publi-2 h2 {
     text-align: center;
-    text-decoration: underline;
     font-size: 40px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -935,11 +943,11 @@ h2 {
 .trab-no-publi-3:hover{
     width: 100%;
     background-color: black;
+    font-size: 2%;
 }
 
 .trab-no-publi-3 h2 {
     text-align: center;
-    text-decoration: underline;
     font-size: 40px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -980,6 +988,7 @@ h2 {
 .trab-no-publi-4:hover{
     width: 100%;
     background-color: black;
+    font-size: 2%;
 }
 
 .trab-no-publi-4 h2 {
@@ -1024,11 +1033,11 @@ h2 {
 .trab-no-publi-5:hover{
     width: 100%;
     background-color: black;
+    font-size: 2%;
 }
 
 .trab-no-publi-5 h2 {
     text-align: center;
-    text-decoration: underline;
     font-size: 40px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -1069,11 +1078,11 @@ h2 {
 .trab-no-publi-6:hover{
     width: 100%;
     background-color: black;
+    font-size: 2%;
 }
 
 .trab-no-publi-6 h2 {
     text-align: center;
-    text-decoration: underline;
     font-size: 40px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -1114,6 +1123,7 @@ h2 {
 .trab-no-publi-7:hover{
     width: 100%;
     background-color: black;
+    font-size: 2%;
 }
 
 .trab-no-publi-7 h2 {
@@ -1158,6 +1168,7 @@ h2 {
 .trab-no-publi-8:hover{
     width: 100%;
     background-color: black;
+    font-size: 2%;
 }
 
 .trab-no-publi-8 h2 {
@@ -1202,6 +1213,7 @@ h2 {
 .trab-no-publi-9:hover{
     width: 100%;
     background-color: black;
+    font-size: 2%;
 }
 
 .trab-no-publi-9 h2 {
