@@ -3,70 +3,100 @@
     margin: 0%;
     box-sizing: border-box;
 }
+/*GENERALES: TITULOS, SUBTITULOS Y PARRAFOS*/
+.titulo-pincipal {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: monospace;
+}
 
-/*Color de Fondo*/
+.subtitulo-general {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: monospace;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.descripcion-general {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  line-height: 30px;
+  font-family: monospace;
+}
+
+/*BODY: COLOR DE FONDO*/
 body {
-    background: linear-gradient(to bottom, #000000, #434343)
+  background: linear-gradient(to bottom, #000000, #434343);
 }
 
-/*Logo*/
-.logo-colabo {
-    width: 40%;
-    /* height: 100%; */
-    /* margin: 10px; */
+/*HEADER: MENU DE NAVEGACION*/
+header .contenedor-menu {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+header .logo-colabo {
+  width: 40%;
+}
+header .contenedor-menu ul {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
 }
 
-
-/* Estilos del menu*/
-.contenedor-menu {
-    width: 100%;
-    /* height: 10%; */
-    background-color: rgb(0, 0, 0);
+/*FOOTER: PIE DE PAGINA*/
+.contenedor-contacto {
+  width: 100%;
+  border-top: 1px white dashed;
+  margin: 30px 5px 30px 5px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedor-contacto .contacto {
+  margin: 20px 5px 30px 5px;
+  padding: 20;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+}
+.contenedor-contacto .contacto ul {
+  list-style: none;
+}
+.contenedor-contacto .contacto ul li p {
+  color: white;
+  font-size: 15px;
+}
+.contenedor-contacto .contacto form ul li a {
+  color: white;
+  text-decoration: none;
 }
 
-.contenedor-menu ul {
-    font-size: 20px;
-    color: white;
-    margin: 10px;
-}
-
-/******************Inicio********************/
-
-.carusel-portadas {
-    /* background-color: rgb(14, 13, 13); */
-    background-image: url(../imagenes/fondo-corusel-2.jpg);
-    background-size: 100% 600px;
-    background-repeat: no-repeat;
-    border: 2px rgb(31, 29, 29) solid;
-    width: 100%;
-    /* height: 500px; */
+/*****INCIO*****/
+.carusel-portadas{
+    width: 80%;
     margin: auto;
-    padding: 1px 20% 1px 20%;
-    border-radius: 6px;
-    display: flex;
-    flex-flow: row nowrap;
-    animation-name: desaparecetexto;
-    animation-iteration-count: 1;
-    animation-duration: 5s;
+    padding: 30px;
 }
 
-
-
-.carusel-cartas {
-    /* padding-left: 40%; */
-    width: 35%;
-    margin-left: 30%;
-    /* padding-left: 50%; */
-
+.carusel-cartas{
+    width: 40%;
+    margin:1px 50% 1px 30%;
+    padding: 10px;
 }
 
-.carusel-cartas img {
+.carusel-cartas img{
     width: 100%;
-    margin: 5px;
-    padding: 5px;
+    margin: auto;
 }
-
-
 .contendor-quienes-form {
     width: 100%;
     margin-top: 20px;
@@ -123,10 +153,8 @@ body {
     animation-duration: 5s; 
 }
 
+/*INCIO:FORMULARIO*/
 
-
-
-/*Formulario*/
 .contenedor-form {
     background-color: rgb(19, 17, 17);
     width: 30%;
@@ -207,72 +235,7 @@ body {
     font-size: 20px;
 }
 
-/*pie de pagina*/
-.contenedor-contacto {
-    width: 100%;
-    border-top: 1px white dashed;
-    margin: 30px 5px 30px 5px;
-    padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contacto {
-    /* border-top: 1px solid white; */
-    /* background-color: red; */
-    margin: 20px 5px 30px 5px;
-    padding: 20;
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: start;
-}
-
-.contacto ul {
-    list-style: none;
-}
-
-.contacto ul li p {
-    color: white;
-    font-size: 15px;
-}
-
-.contacto form ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-
-/***************estilo de colaboraciones****************/
-/*header*/
-
-
-/*main*/
-
-.titulo-colabo {
-    color: white;
-    text-align: center;
-    font-size: 80px;
-    font-family: monospace;
-}
-
-h2 {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-}
-
-.descripcion-colabo {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
-
+/***** COLABORACIONES *****/
 .contenedor-colabo {
     width: 100%;
     margin: auto;
@@ -332,18 +295,7 @@ h2 {
     opacity: 100%;
 }
 
-
-
-/************estilo galeria**************/
-
-.MenuGale {
-    text-align: center;
-}
-
-.ItemGale {
-    display: inline;
-    list-style-type: none;
-}
+/***** GALERIA *****/
 
 .menu-interno {
     /* background-color: aquamarine; */
@@ -372,28 +324,6 @@ h2 {
     text-shadow: 1px 1px 3px white;
 }
 
-
-.titulo-galeria {
-    color: white;
-    text-align: center;
-    font-size: 80px;
-    text-transform: uppercase;
-}
-
-.subtitulo-galeria {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-}
-
-.descripcion-galeria {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    line-height: 35px;
-}
-
-
 .galeria-uno {
     /* background-color: black; */
     /* border: 2px black solid; */
@@ -410,16 +340,6 @@ h2 {
     justify-content: center;
     align-items: first baseline;
 }
-
-/* @keyframes desaparecefotos{
-    0%{
-        opacity: 0%;
-    }
-    100%{
-        opacity: 100%;
-    }
-} */
-
 
 .fotos-videos {
     /* background-color: darkolivegreen; */
@@ -464,54 +384,7 @@ h2 {
 
 }
 
-/************estilo de noticias************/
-.MenuNoti {
-    text-align: center;
-}
-
-.ItemNoti {
-    display: inline;
-    list-style-type: none;
-}
-
-/*Main*/
-/*concurso*/
-.titulo-not {
-    color: white;
-    text-align: center;
-    font-size: 80px;
-    text-transform: uppercase;
-}
-
-.subtitulo-not {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    border-top: 2px white solid;
-    text-transform: uppercase;
-}
-
-.indicaciones-not {
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    line-height: 30px;
-}
-
-.link-concur {
-    text-align: center;
-    font-size: 20px;
-}
-
-/*proximamente. en esta seccion saldra la informacion de los libros que estan por salir*/
-
-.subtitulo-prox {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-    margin-top: 30px;
-    text-transform: uppercase;
-}
+/*****NOTICIAS*****/
 
 .contendor-nuevo-proyecto-uno {
     /*  background-color: rgb(29, 27, 27);   */
@@ -533,8 +406,6 @@ h2 {
 
 
 }
-
-
 
 .contendor-nuevo-proyecto {
     /* background-color: darkolivegreen;
@@ -561,11 +432,9 @@ h2 {
     width: 45%;
 }
 
-
 .concurso-mate {
     width: 35%;
 }
-
 
 .concurso-mate img {
     width: 100%;
@@ -620,8 +489,6 @@ h2 {
     text-align: center;
 }
 
-
-
 .descripcion-general {
     color: white;
     margin-top: 30px;
@@ -661,31 +528,7 @@ h2 {
     width: 100%;
 }
 
-
-
-
-/*****************estilo de publicaciones******************/
-.MenuPubli {
-    text-align: center;
-}
-
-.ItemPubli {
-    display: inline;
-    list-style-type: none;
-}
-
-/*main*/
-.titulo-publi {
-    color: white;
-    text-align: center;
-    font-size: 80px;
-}
-
-.subtitulo-publi {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-}
+/*****PUBLICACIONES*****/
 
 .contenedor-publicaciones {
     /* background-color: darkgreen; */
@@ -745,19 +588,16 @@ h2 {
     /*p adding: 1%;*/
 }
 
-
 .descripcion-p h3 {
     color: white;
     text-align: center;
     margin-top: 20px;
 }
 
-
 .descripcion-p ul li {
     color: white;
     list-style: circle;
 }
-
 
 .descripcion-p p {
     color: white;
@@ -780,12 +620,10 @@ h2 {
     margin-top: 20px;
 }
 
-
 .descripcion-p-dos ul li {
     color: white;
     list-style: circle;
 }
-
 
 .descripcion-p-dos p {
     color: white;
@@ -794,24 +632,7 @@ h2 {
     font-size: 12px;
 }
 
-/********** estilo trabajos *********/
-.MenuTrab {
-    text-align: center;
-}
-
-.ItemTrab {
-    display: inline;
-    list-style-type: none;
-}
-
-/*main*/
-
-.titulo-trab {
-    color: white;
-    text-align: center;
-    font-size: 80px;
-    text-transform: uppercase;
-}
+/*****TRABAJOS*****/
 
 .contenedor-par-trab {
     /* border: solid 1px red; */
@@ -820,12 +641,7 @@ h2 {
     margin: auto;
 }
 
-.parrafo-trab {
-    color: white;
-    text-align: center;
-    font-size: 23px;
-    line-height: 30px;
-}
+
 
 .contenedor-trab {
     /* background-color: black; */
@@ -1252,6 +1068,7 @@ h2 {
 }
 
 /*portadas*/
+
 /*----AND JUSTICE FOR ALL----*/
 .contenedor-port {
     width: 100%;
@@ -1260,7 +1077,6 @@ h2 {
     display: flex;
     flex-direction: row;
     margin: auto;
-
 }
 
 .portada-trab {
@@ -1268,7 +1084,6 @@ h2 {
     margin: auto;
     padding: 5px;
 }
-
 
 /*----ECDISIS----*/
 .contenedor-port2 {
@@ -1287,11 +1102,6 @@ h2 {
     opacity: 90%;
 }
 
-
-
-
-
-
 /*----EL JAFARI----*/
 .contenedor-port3 {
     width: 99%;
@@ -1308,7 +1118,6 @@ h2 {
     margin: auto;
     padding: 5px;
 } 
-
 
 /*----EL QUISTE----*/
 .contenedor-port4 {
@@ -1340,10 +1149,6 @@ h2 {
     opacity: 100%;
 }
 
-
-
-
-
 /*----HABLADOR----*/
 .contenedor-port5 {
     width: 99%;
@@ -1360,8 +1165,6 @@ h2 {
     margin: auto;
     padding: 5px;
 }
-
-
 
 /*----LOS RICOS SOMOS NOSOTROS----*/
 .contenedor-port6 {
@@ -1380,8 +1183,6 @@ h2 {
     padding: 5px;
 }
 
-
-
 /*----LUCHA DESPAREJA----*/
 .contenedor-port7 {
     width: 99%;
@@ -1398,8 +1199,6 @@ h2 {
     margin: auto;
     padding: 5px;
 }
-
-
 
 /*----PERROS DE HIELO----*/
 .contenedor-port8 {
@@ -1440,3 +1239,6 @@ h2 {
     width: 33.3%;
     opacity: 100%;
 }
+
+
+/*# sourceMappingURL=estilos.css.map */

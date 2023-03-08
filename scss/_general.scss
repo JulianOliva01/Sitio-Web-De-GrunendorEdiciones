@@ -1,0 +1,28 @@
+/*GENERALES: TITULOS, SUBTITULOS Y PARRAFOS*/
+.titulo-pincipal{
+    color:$color1;
+    text-align: center;
+    font-size: $tamañotituloP;
+    text-transform: uppercase;
+    font-family: $fuente;
+}
+
+.subtitulo-general{
+    color: $color1;
+    text-align: center;
+    font-size: $tamañosubtitulo;
+    font-family: $fuente;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.descripcion-general{
+    color: $color1;
+    text-align: center;
+    font-size: $tamañodescripcion;
+    line-height: 30px;
+    font-family: $fuente;
+}
+
+
+
