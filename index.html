@@ -23,8 +23,9 @@
     <header>
         <nav class="navbar navbar-expand-lg contenedor-menu" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand " href="index.html"><img class=" rounded-pill logo-colabo"
-                        src="imagenes/logo-menu.png" alt="Logo"></a>
+                <a class="navbar-brand " href="index.html">
+                    <img class=" rounded-pill logo-colabo" src="/imagenes/logo-menu.png" alt="Logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -65,81 +66,57 @@
     <!--PASA PORTADAS Y ¿QUIENES SOMOS?-->
 
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide carusel-portadas">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+
+        <section>
+            <img class="cartas-inicio" src="imagenes/publicaciones/uonder.jpeg" alt="portada-uonder">
+            <img class="cartas-inicio" src="imagenes/publicaciones/sobre-el-litoral.jpeg"
+                alt="portada-sobre-el-litoral">
+            <img class="cartas-inicio" src="imagenes/publicaciones/sobre-el-litoral-otra-vez.jpeg"
+                alt="portada-sobre-el-litoral-otra-vez">
+            <img class="cartas-inicio" src="imagenes/publicaciones/sobre-el-litoral-reicidente.jpeg"
+                alt="portada-sobre-el-litoral-reicident">
+            <img class="cartas-inicio" src="imagenes/publicaciones/symur.jpeg" alt="portada-symu">
+        </section>
+
+        <div class="contendor-quienes-form">
+
+            <div class="quienes-somos">
+                <h1 class="animate-animated animate__heartBeat titulo Bordes">¿Quienes Somos?</h1>
+                <p class="parrafo Bordes">Grünendör Ediciones es una editorial independiente de historietas y libros
+                    ilustrados,
+                    formada a mediados de 2012 en Santa Fe, Argentina. Tenemos como fin difundir y publicar trabajos de
+                    nuestra
+                    autoría, así como de otros autores, principalmente de nuestra región. </p>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active carusel-cartas">
-                    <img src="imagenes/publicaciones/sobre-el-litoral.jpeg" class="d-block w-70 h-20"
-                        alt="Portada 1ra edicion">
-                </div>
-                <div class="carousel-item carusel-cartas">
-                    <img src="imagenes/publicaciones/sobre-el-litoral-reicidente.jpeg" class="d-block w-70 h-20"
-                        alt="portada 2da edicion">
-                </div>
-                <div class="carousel-item carusel-cartas">
-                    <img src="imagenes/publicaciones/sobre-el-litoral-otra-vez.jpeg" class="d-block w-70 h-20"
-                        alt="portada 3ra ediciom">
-                </div>
+
+
+
+            <div class="contenedor-form">
+
+                <form action="" class="formulario">
+
+                    <h2 class="titForm"> <span>C</span>ontacto</h2>
+
+                    <label class="indicacion" for="nombre y apellido">Nombre y Apellido:</label>
+                    <input id="nombre y apellido" class="form-input" placeholder="nombre y apellido">
+
+                    <br><br>
+
+                    <label class="indicacion" for="mail">Mail:</label>
+                    <input id="mail" class="form-input" placeholder="mail">
+
+                    <br><br>
+
+                    <label class="indicacion" for="contactanos">Contactanos:</label>
+                    <textarea name="contactanos" id="contactanos" cols="30" rows="10" class="form-textarea"
+                        placeholder="Comentarios y Propuestas"></textarea>
+
+                    <button type="submite">Enviar</button>
+                </form>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
+
     </main>
-    <div class="contendor-quienes-form">
-
-        <div class="quienes-somos">
-            <h1 class="animate-animated animate__heartBeat titulo Bordes">¿Quienes Somos?</h1>
-            <p class="parrafo Bordes">Grünendör Ediciones es una editorial independiente de historietas y libros
-                ilustrados,
-                formada a mediados de 2012 en Santa Fe, Argentina. Tenemos como fin difundir y publicar trabajos de
-                nuestra
-                autoría, así como de otros autores, principalmente de nuestra región. </p>
-        </div>
-
-
-        <!--FORMULARIO-->
-
-
-
-        <div class="contenedor-form">
-
-            <form action="" class="formulario">
-
-                <h2 class="titForm"> <span>C</span>ontacto</h2>
-
-                <label class="indicacion" for="nombre y apellido">Nombre y Apellido:</label>
-                <input id="nombre y apellido" class="form-input" placeholder="nombre y apellido">
-
-                <br><br>
-
-                <label class="indicacion" for="mail">Mail:</label>
-                <input id="mail" class="form-input" placeholder="mail">
-
-                <br><br>
-
-                <label class="indicacion" for="contactanos">Contactanos:</label>
-                <textarea name="contactanos" id="contactanos" cols="30" rows="10" class="form-textarea"
-                    placeholder="Escribinos"></textarea>
-
-                <button type="submite">Enviar</button>
-            </form>
-        </div>
-    </div>
 
 
     <!--PIE DE PAGINA-->
@@ -196,24 +173,24 @@
 
         <span class="contacto">
             <form action="">
-            <ul>
-                <li>
-                    <a href="https://www.instagram.com/grunendor_ediciones/" target="_blank"><i
-                            class="bi bi-instagram"> Instagram
-                        </i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/Grunendor" target="_blank">
-                        <i class="bi bi-facebook"> Facebook
-                        </i>
-                    </a>
-                </li>
-                <li>
-                    <p><i class="bi bi-envelope"> grunendro.ediciones@gmail.com</i></p>
-                </li>
-            </ul>
-        </form>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/grunendor_ediciones/" target="_blank"><i
+                                class="bi bi-instagram"> Instagram
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Grunendor" target="_blank">
+                            <i class="bi bi-facebook"> Facebook
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <p><i class="bi bi-envelope"> grunendro.ediciones@gmail.com</i></p>
+                    </li>
+                </ul>
+            </form>
         </span>
 
     </footer>
