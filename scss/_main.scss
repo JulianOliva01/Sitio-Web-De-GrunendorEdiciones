@@ -27,7 +27,7 @@ section {
             opacity: 100%;
             filter: contrast(130%);
         }
-        
+
 
     }
 }
@@ -89,13 +89,13 @@ section {
     animation-duration: 5s;
     transition: 2s;
 
-    &:hover{
+    &:hover {
         background-color: $colordefondo2;
         box-shadow: 5px 5px 10px black;
         border: 1px rgb(19, 17, 17) solid;
     }
 
-    &:focus-within{
+    &:focus-within {
         background-color: $colordefondo2;
         box-shadow: 5px 5px 5px white;
         border: 1px rgb(19, 17, 17) solid;
@@ -133,14 +133,14 @@ section {
             transition: 2s;
             opacity: 70%;
 
-            &:focus{
-                background-color:$color1;
+            &:focus {
+                background-color: $color1;
                 color: white;
                 border: 1px solid white;
                 border-radius: 10px;
                 box-shadow: 3px 3px 3px white;
                 opacity: 100%;
-                
+
             }
         }
 
@@ -169,14 +169,14 @@ section {
             opacity: 70%;
             transition: 2s;
 
-            &:hover{
-                background-color:$color2;
+            &:hover {
+                background-color: $color2;
                 color: $color1;
                 border: 1px solid white;
                 border-radius: 10px;
                 box-shadow: 3px 3px 3px white;
                 opacity: 100%;
-                
+
             }
         }
 
@@ -194,14 +194,14 @@ section {
             opacity: 70%;
             transition: 2s;
 
-            &:focus{
-                background-color:$color1;
+            &:focus {
+                background-color: $color1;
                 color: white;
                 border: 1px solid white;
                 border-radius: 10px;
                 box-shadow: 3px 3px 3px white;
                 opacity: 100%;
-                
+
             }
         }
 
@@ -209,6 +209,9 @@ section {
 }
 
 /*****COLABORACIONES*****/
+
+
+
 
 .contenedor-colabo {
     width: 100%;
