@@ -1,15 +1,41 @@
 /*HEADER: MENU DE NAVEGACION*/
+
 header{
+
     .contenedor-menu{
         width: 100%;
-        background-color: rgb(0, 0, 0);
+      margin: auto;
+      padding: 0px;
     }
     .logo-colabo{
-        width: 100%;
+        width: 60%;
+        margin: auto;
+        padding: 0px;
+        &:hover{
+            width: 62%;
+        }
     }
     .contenedor-menu ul{
         font-size: 20px;
 		color:$color1;
-		margin: 10px;
+		margin: 20px;
+        &:hover{
+            color:aqua;
+        }
+        li{
+            margin: auto;
+            padding: 5px;
+            transition: 2s;
+            &:hover{
+                font-size: 25px;
+                text-transform: uppercase;
+                text-decoration:line-through;
+            }
+            a{
+                margin: auto;
+                padding: 10px;
+
+            }
+        }
     }
 }

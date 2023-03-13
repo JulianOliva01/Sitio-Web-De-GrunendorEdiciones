@@ -1,3 +1,10 @@
+/*RESET*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /*GENERALES: TITULOS, SUBTITULOS Y PARRAFOS*/
 .titulo-pincipal {
   color: white;
@@ -12,8 +19,7 @@
   text-align: center;
   font-size: 40px;
   font-family: monospace;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin: auto;
 }
 
 .descripcion-general {
@@ -32,15 +38,38 @@ body {
 /*HEADER: MENU DE NAVEGACION*/
 header .contenedor-menu {
   width: 100%;
-  background-color: rgb(0, 0, 0);
+  margin: auto;
+  padding: 0px;
 }
 header .logo-colabo {
-  width: 40%;
+  width: 60%;
+  margin: auto;
+  padding: 0px;
+}
+header .logo-colabo:hover {
+  width: 62%;
 }
 header .contenedor-menu ul {
   font-size: 20px;
   color: white;
-  margin: 10px;
+  margin: 20px;
+}
+header .contenedor-menu ul:hover {
+  color: aqua;
+}
+header .contenedor-menu ul li {
+  margin: auto;
+  padding: 5px;
+  transition: 2s;
+}
+header .contenedor-menu ul li:hover {
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: line-through;
+}
+header .contenedor-menu ul li a {
+  margin: auto;
+  padding: 10px;
 }
 
 /*****INCIO*****/
@@ -179,27 +208,7 @@ section .cartas-inicio:hover {
   color: white;
   margin-bottom: 20px;
 }
-.contenedor-form .formulario button {
-  border: 3px solid black;
-  width: 25%;
-  padding: 10px;
-  margin-top: 20px;
-  margin-left: 25%;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  font-size: 20px;
-  opacity: 70%;
-  transition: 2s;
-}
-.contenedor-form .formulario button:hover {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  border: 1px solid white;
-  border-radius: 10px;
-  box-shadow: 3px 3px 3px white;
-  opacity: 100%;
-}
-.contenedor-form .formulario .form-textarea {
+.contenedor-form .form-textarea {
   border: 1px solid white;
   width: 80%;
   height: 100px;
@@ -213,9 +222,9 @@ section .cartas-inicio:hover {
   opacity: 70%;
   transition: 2s;
 }
-.contenedor-form .formulario .form-textarea:focus {
+.contenedor-form .form-textarea:focus {
   background-color: white;
-  color: white;
+  color: black;
   border: 1px solid white;
   border-radius: 10px;
   box-shadow: 3px 3px 3px white;
@@ -469,77 +478,74 @@ section .cartas-inicio:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
+  margin: auto;
+  padding: 20px;
 }
-
-.img-descr-p {
-  width: 20%;
-  margin: 10px;
+.contenedor-publicaciones .img-descr-p {
+  width: 22%;
+  margin: auto;
   padding: 1%;
   transition: 1s;
 }
-.img-descr-p:hover {
+.contenedor-publicaciones .img-descr-p:hover {
   width: 22%;
   background-color: rgb(17, 14, 14);
   border: 0px solid rgb(17, 14, 14);
   margin: auto;
-  padding: auto;
+  padding: 0;
   box-shadow: 5px 5px 5px black;
 }
-
-.img-p {
+.contenedor-publicaciones .img-p {
   width: 100%;
   height: 55%;
   margin: auto;
 }
-.img-p img {
+.contenedor-publicaciones .img-p img {
   width: 100%;
 }
-
-.img-p-dos {
+.contenedor-publicaciones .img-p-dos {
   width: 100%;
   height: 40%;
 }
-.img-p-dos img {
+.contenedor-publicaciones .img-p-dos img {
   width: 100%;
 }
-
-.descripcion-p {
+.contenedor-publicaciones .descripcion-p {
   width: 100%;
   height: 45%;
   margin: auto;
 }
-.descripcion-p h3 {
+.contenedor-publicaciones .descripcion-p h3 {
   color: white;
   text-align: center;
   margin-top: 20px;
 }
-.descripcion-p ul li {
+.contenedor-publicaciones .descripcion-p ul li {
   color: white;
   list-style: circle;
 }
-.descripcion-p p {
+.contenedor-publicaciones .descripcion-p p {
   color: white;
   text-align: center;
   font-weight: bold;
   font-size: 12px;
 }
-
-.descripcion-p-dos {
+.contenedor-publicaciones .descripcion-p-dos {
   width: 100%;
   height: 60%;
   margin-top: 10px;
 }
-.descripcion-p-dos h3 {
+.contenedor-publicaciones .descripcion-p-dos h3 {
   color: white;
   text-align: center;
   margin-top: 20px;
 }
-.descripcion-p-dos ul li {
+.contenedor-publicaciones .descripcion-p-dos ul li {
   color: white;
   list-style: circle;
 }
-.descripcion-p-dos p {
+.contenedor-publicaciones .descripcion-p-dos p {
   color: white;
   text-align: center;
   font-weight: bold;
@@ -695,6 +701,13 @@ section .cartas-inicio:hover {
   opacity: 100%;
 }
 
+.compra {
+  font-family: monospace;
+  margin: 1px 20% 10px 30%;
+  cursor: pointer;
+  transition: 1s;
+}
+
 /*FOOTER: PIE DE PAGINA*/
 .contenedor-contacto {
   width: 100%;
@@ -725,6 +738,109 @@ section .cartas-inicio:hover {
 .contenedor-contacto .contacto form ul li a {
   color: white;
   text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    /*****TITULOS Y SUBTITULOS*****/
+    /******MEDIA QUERIE INCIO*****/
+  }
+  body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body .titulo-pincipal {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+  }
+  body .subtitulo-general {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    margin: auto;
+  }
+  body .descripcion-general {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: monospace;
+    margin-bottom: 10px;
+  }
+  body .contenedor-menu {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .contenedor-menu .logo-colabo {
+    width: 100%;
+    margin: 0;
+  }
+  body .contenedor-menu .menu-hamburguesa {
+    margin: auto;
+  }
+  body .tren-portadas {
+    width: 100%;
+    margin: auto;
+  }
+  body .contendor-quienes-form .quienes-somos {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  body .contendor-quienes-form .contenedor-form {
+    width: 100%;
+    border: black 1px solid;
+  }
+  body .contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+  }
+  body .contenedor-contacto .contacto {
+    margin: 10px;
+    width: 100%;
+    border-top: 1px dotted black;
+  }
+  /*****COLABORACIONES MEDIA QUERIE*****/
+  .contenedor-colabo {
+    width: 100%;
+  }
+  .contenedor-colabo .contenedor-portadas {
+    width: 100%;
+    opacity: 100%;
+    margin: auto;
+  }
+  .contenedor-colabo .contenedor-portadas-cinco {
+    width: 100%;
+    opacity: 100%;
+    margin: auto;
+  }
+  .contenedor-colabo .contenedor-portadas-tres {
+    width: 100%;
+    opacity: 100%;
+    margin: auto;
+  }
+  /*****GALERIA MEDIA QUERIE*****/
+  .galeria-uno {
+    width: 100%;
+  }
+  .galeria-uno .fotos-videos {
+    width: 80%;
+    margin: auto;
+  }
+  .galeria-uno .fotos-videos:hover {
+    width: 100%;
+  }
+  .galeria-uno .fotos-videos-dos {
+    width: 80%;
+    margin: auto;
+  }
+  .galeria-uno .fotos-videos-dos:hover {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

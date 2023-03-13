@@ -1,0 +1,10 @@
+@mixin botoncompra {
+    font-family: $fuente;
+    margin: 1px 20% 10px 30%;
+    cursor: pointer;
+    transition: 1s 
+}
+
+.compra {
+    @include botoncompra;
+}

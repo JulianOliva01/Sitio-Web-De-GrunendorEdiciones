@@ -1,0 +1,127 @@
+@media screen and (max-width:480px) {
+    body {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /*****TITULOS Y SUBTITULOS*****/
+
+        .titulo-pincipal{
+            color:$color1;
+            text-align: center;
+            font-size: $titulomobile;
+            text-transform: uppercase;
+            font-family: $fuente;
+        }
+        
+        .subtitulo-general{
+            color: $color1;
+            text-align: center;
+            font-size: $subtitulomobile;
+            font-family: $fuente;
+            margin: auto;
+        }
+        
+        .descripcion-general{
+            color: $color1;
+            text-align: center;
+            font-size: $descripcionmobile;
+            line-height: 20px;
+            font-family: $fuente;
+            margin-bottom: 10px;
+        }
+
+        /******MEDIA QUERIE INCIO*****/
+
+        .contenedor-menu {
+            width: 100%;
+            margin-bottom: 10px;
+
+            .logo-colabo {
+                width: 100%;
+                margin: 0;
+
+            }
+
+            .menu-hamburguesa {
+                margin: auto;
+            }
+        }
+
+        .tren-portadas{
+            width: 100%;
+            margin: auto;
+    
+        }
+
+        .contendor-quienes-form {
+
+            .quienes-somos {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .contenedor-form {
+                width: 100%;
+                border: black 1px solid;
+            }
+
+        }
+
+        .contenedor-contacto {
+            display: flex;
+            flex-direction: column;
+
+            .contacto {
+                margin: 10px;
+                width: 100%;
+                border-top: 1px dotted black;
+            }
+        }
+    }
+
+    /*****COLABORACIONES MEDIA QUERIE*****/
+    .contenedor-colabo{
+        width: 100%;
+        .contenedor-portadas{
+            width: 100%;
+            opacity: 100%;
+            margin: auto;
+        }
+        .contenedor-portadas-cinco{
+            width: 100%;
+            opacity: 100%;
+            margin: auto;
+        }
+        .contenedor-portadas-tres{
+            width: 100%;
+            opacity: 100%;
+            margin: auto;
+        }
+        
+    }
+
+    /*****GALERIA MEDIA QUERIE*****/
+
+    .galeria-uno{
+        width: 100%;
+        .fotos-videos{
+            width: 80%;
+            margin: auto;
+            &:hover{
+                width: 100%;
+            }
+        }
+        .fotos-videos-dos{
+            width: 80%;
+            margin: auto;
+            &:hover{
+                width: 100%;
+            }
+        
+            
+        }
+    }
+

@@ -157,56 +157,36 @@ section {
             margin-bottom: 20px;
         }
 
-        button {
-            border: 3px solid black;
-            width: 25%;
-            padding: 10px;
-            margin-top: 20px;
-            margin-left: 25%;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            font-size: 20px;
-            opacity: 70%;
-            transition: 2s;
-
-            &:hover {
-                background-color: $color2;
-                color: $color1;
-                border: 1px solid white;
-                border-radius: 10px;
-                box-shadow: 3px 3px 3px white;
-                opacity: 100%;
-
-            }
-        }
-
-        .form-textarea {
-            border: 1px solid white;
-            width: 80%;
-            height: 100px;
-            padding: 10px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            font-size: 20px;
-            color: $color2;
-            font-family: $fuente;
-            text-align: center;
-            opacity: 70%;
-            transition: 2s;
-
-            &:focus {
-                background-color: $color1;
-                color: white;
-                border: 1px solid white;
-                border-radius: 10px;
-                box-shadow: 3px 3px 3px white;
-                opacity: 100%;
-
-            }
-        }
 
     }
+
+    .form-textarea {
+        border: 1px solid white;
+        width: 80%;
+        height: 100px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-size: 20px;
+        color: $color2;
+        font-family: $fuente;
+        text-align: center;
+        opacity: 70%;
+        transition: 2s;
+
+        &:focus {
+            background-color: $color1;
+            color: black;
+            border: 1px solid white;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px white;
+            opacity: 100%;
+
+        }
+    }
+
 }
+
 
 /*****COLABORACIONES*****/
 
@@ -484,100 +464,106 @@ section {
 
 /*****PUBLICACIONES*****/
 
+
+
 .contenedor-publicaciones {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: center;
-}
+    align-items: baseline;
+    margin: auto;
+    padding: 20px;
 
-.img-descr-p {
-    width: 20%;
-    margin: 10px;
-    padding: 1%;
-    transition: 1s;
 
-    &:hover {
+    .img-descr-p {
         width: 22%;
-        background-color: $colordefondo3;
-        border: 0px solid rgb(17, 14, 14);
         margin: auto;
-        padding: auto;
-        box-shadow: 5px 5px 5px black;
-    }
-}
+        padding: 1%;
+        transition: 1s;
 
-.img-p {
-    width: 100%;
-    height: 55%;
-    margin: auto;
-
-    img {
-        width: 100%;
-    }
-}
-
-.img-p-dos {
-    width: 100%;
-    height: 40%;
-
-    img {
-        width: 100%;
-    }
-}
-
-.descripcion-p {
-    width: 100%;
-    height: 45%;
-    margin: auto;
-
-    h3 {
-        color: $color1;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    ul {
-        li {
-            color: $color1;
-            list-style: circle;
+        &:hover {
+            width: 22%;
+            background-color: $colordefondo3;
+            border: 0px solid rgb(17, 14, 14);
+            margin: auto;
+            padding: 0;
+            box-shadow: 5px 5px 5px black;
         }
     }
 
-    p {
-        color: $color1;
-        text-align: center;
-        font-weight: bold;
-        font-size: 12px;
-    }
-}
+    .img-p {
+        width: 100%;
+        height: 55%;
+        margin: auto;
 
-.descripcion-p-dos {
-    width: 100%;
-    height: 60%;
-    margin-top: 10px;
-
-    h3 {
-        color: $color1;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    ul {
-        li {
-            color: $color1;
-            list-style: circle;
+        img {
+            width: 100%;
         }
     }
 
-    p {
-        color: $color1;
-        text-align: center;
-        font-weight: bold;
-        font-size: 12px;
+    .img-p-dos {
+        width: 100%;
+        height: 40%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .descripcion-p {
+        width: 100%;
+        height: 45%;
+        margin: auto;
+
+        h3 {
+            color: $color1;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        ul {
+            li {
+                color: $color1;
+                list-style: circle;
+            }
+        }
+
+        p {
+            color: $color1;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+        }
+    }
+
+    .descripcion-p-dos {
+        width: 100%;
+        height: 60%;
+        margin-top: 10px;
+
+        h3 {
+            color: $color1;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        ul {
+            li {
+                color: $color1;
+                list-style: circle;
+            }
+        }
+
+        p {
+            color: $color1;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+        }
     }
 }
+
 
 /*****TRABAJOS*****/
 
