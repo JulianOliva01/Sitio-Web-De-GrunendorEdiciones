@@ -42,12 +42,12 @@ header .contenedor-menu {
   padding: 0px;
 }
 header .logo-colabo {
-  width: 60%;
+  width: 75%;
   margin: auto;
-  padding: 0px;
+  padding: 20px;
 }
 header .logo-colabo:hover {
-  width: 62%;
+  width: 68%;
 }
 header .contenedor-menu ul {
   font-size: 20px;
@@ -369,12 +369,44 @@ section .cartas-inicio:hover {
 }
 
 .contendor-nuevo-proyecto {
-  width: 80%;
+  width: 100%;
   padding: 30px;
   margin: auto;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
+  transition: 1s;
+}
+.contendor-nuevo-proyecto:hover {
+  background-color: black;
+  padding: 10px;
+}
+.contendor-nuevo-proyecto .carta-np {
+  width: 25%;
+  margin: auto;
+  padding: 2px;
+  transition: 1s;
+  opacity: 60%;
+}
+.contendor-nuevo-proyecto .carta-np:hover {
+  padding: 0;
+  box-shadow: 5px 5px 10px black;
+  opacity: 100%;
+}
+.contendor-nuevo-proyecto .carta-np .img-np {
+  width: 100%;
+  height: 70%;
+  background-color: red;
+}
+.contendor-nuevo-proyecto .carta-np .img-np img {
+  width: 100%;
+}
+.contendor-nuevo-proyecto .carta-np .descripcion-carta {
+  width: 100%;
+  height: 30%;
+  color: white;
+  margin: auto;
+  padding: 5px;
 }
 
 .madafaka-camon {
@@ -393,14 +425,6 @@ section .cartas-inicio:hover {
   width: 35%;
 }
 .concurso-mate img {
-  width: 100%;
-}
-
-.portada-inundacion {
-  width: 25%;
-  margin: 10px;
-}
-.portada-inundacion img {
   width: 100%;
 }
 
@@ -744,6 +768,11 @@ section .cartas-inicio:hover {
   body {
     /*****TITULOS Y SUBTITULOS*****/
     /******MEDIA QUERIE INCIO*****/
+    /*****COLABORACIONES MEDIA QUERIE*****/
+    /*****GALERIA MEDIA QUERIE*****/
+    /*****NOTICIAS MEDIA QUERIE*****/
+    /*****PUBLICACIONES MEDIA QUERIE*****/
+    /*****TRABAJOS MEDIA QUERIE*****/
   }
   body * {
     margin: 0;
@@ -775,10 +804,15 @@ section .cartas-inicio:hover {
   body .contenedor-menu {
     width: 100%;
     margin-bottom: 10px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   body .contenedor-menu .logo-colabo {
     width: 100%;
-    margin: 0;
+    margin: auto;
+    padding: 10px;
   }
   body .contenedor-menu .menu-hamburguesa {
     margin: auto;
@@ -804,42 +838,146 @@ section .cartas-inicio:hover {
     width: 100%;
     border-top: 1px dotted black;
   }
-  /*****COLABORACIONES MEDIA QUERIE*****/
-  .contenedor-colabo {
+  body .contenedor-colabo {
     width: 100%;
   }
-  .contenedor-colabo .contenedor-portadas {
-    width: 100%;
-    opacity: 100%;
-    margin: auto;
-  }
-  .contenedor-colabo .contenedor-portadas-cinco {
+  body .contenedor-colabo .contenedor-portadas {
     width: 100%;
     opacity: 100%;
     margin: auto;
   }
-  .contenedor-colabo .contenedor-portadas-tres {
+  body .contenedor-colabo .contenedor-portadas-cinco {
     width: 100%;
     opacity: 100%;
     margin: auto;
   }
-  /*****GALERIA MEDIA QUERIE*****/
-  .galeria-uno {
+  body .contenedor-colabo .contenedor-portadas-tres {
+    width: 100%;
+    opacity: 100%;
+    margin: auto;
+  }
+  body .galeria-uno {
     width: 100%;
   }
-  .galeria-uno .fotos-videos {
+  body .galeria-uno .fotos-videos {
     width: 80%;
     margin: auto;
   }
-  .galeria-uno .fotos-videos:hover {
+  body .galeria-uno .fotos-videos:hover {
     width: 100%;
   }
-  .galeria-uno .fotos-videos-dos {
+  body .galeria-uno .fotos-videos-dos {
     width: 80%;
     margin: auto;
   }
-  .galeria-uno .fotos-videos-dos:hover {
+  body .galeria-uno .fotos-videos-dos:hover {
     width: 100%;
+  }
+  body .contendor-nuevo-proyecto-uno {
+    width: 83%;
+  }
+  body .contendor-nuevo-proyecto-uno .madafaka-camon {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto-uno .madafaka-camon img {
+    width: 100%;
+  }
+  body .contendor-nuevo-proyecto-uno .descripcion-cm {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto-uno .concurso-mate {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto-uno .concurso-mate img {
+    width: 100%;
+  }
+  body .contendor-nuevo-proyecto {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto:hover {
+    padding: 1px;
+  }
+  body .contendor-nuevo-proyecto .carta-np {
+    width: 90%;
+    opacity: 100%;
+    margin: auto;
+    padding: 0px;
+  }
+  body .contendor-nuevo-proyecto .carta-np:hover {
+    border: 3px solid white;
+    box-shadow: 3px 3px 5px white;
+  }
+  body .contendor-nuevo-proyecto .carta-np .descripcion-carta {
+    padding: 20px;
+  }
+  body .contendor-nuevo-proyecto .carta-cronicas-azul {
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto .cartas-proyecto-ca {
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto .cartas-proyecto-cv {
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contenedor-publicaciones {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contenedor-publicaciones .img-descr-p {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+  }
+  body .contenedor-publicaciones .img-descr-p:hover {
+    width: 50%;
+    padding: 0px;
+  }
+  body .contenedor-publicaciones .img-descr-p .img-p {
+    width: 100%;
+    height: 55%;
+    margin: auto;
+  }
+  body .contenedor-publicaciones .img-descr-p .img-p img {
+    width: 100%;
+  }
+  body .contenedor-publicaciones .img-descr-p .img-p .img-p-dos {
+    width: 100%;
+    height: 40%;
+  }
+  body .contenedor-publicaciones .img-descr-p .img-p .img-p-dos img {
+    width: 100%;
+  }
+  body .contenedor-publicaciones .img-descr-p .descripcion-p {
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contenedor-publicaciones .descripcion-p-dos {
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contenedor-par-trab {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
   }
 }
 
