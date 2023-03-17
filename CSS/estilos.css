@@ -193,7 +193,7 @@ section .cartas-inicio:hover {
 }
 .contenedor-form .formulario .form-input:focus {
   background-color: white;
-  color: white;
+  color: black;
   border: 1px solid white;
   border-radius: 10px;
   box-shadow: 3px 3px 3px white;
@@ -725,49 +725,10 @@ section .cartas-inicio:hover {
   opacity: 100%;
 }
 
-.compra {
-  font-family: monospace;
-  margin: 1px 20% 10px 30%;
-  cursor: pointer;
-  transition: 1s;
-}
-
-/*FOOTER: PIE DE PAGINA*/
-.contenedor-contacto {
-  width: 100%;
-  border-top: 1px white dashed;
-  margin: 30px 5px 30px 5px;
-  padding: 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.contenedor-contacto .contacto {
-  margin: 20px 5px 30px 5px;
-  padding: 20;
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: start;
-}
-.contenedor-contacto .contacto ul {
-  list-style: none;
-}
-.contenedor-contacto .contacto ul li p {
-  color: white;
-  font-size: 15px;
-}
-.contenedor-contacto .contacto form ul li a {
-  color: white;
-  text-decoration: none;
-}
-
 @media screen and (max-width: 480px) {
   body {
     /*****TITULOS Y SUBTITULOS*****/
-    /******MEDIA QUERIE INCIO*****/
+    /******MEDIA QUERIE MOBILE INCIO*****/
     /*****COLABORACIONES MEDIA QUERIE*****/
     /*****GALERIA MEDIA QUERIE*****/
     /*****NOTICIAS MEDIA QUERIE*****/
@@ -801,6 +762,15 @@ section .cartas-inicio:hover {
     font-family: monospace;
     margin-bottom: 10px;
   }
+  body .contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+  }
+  body .contenedor-contacto .contacto {
+    margin: 10px;
+    width: 100%;
+    border-top: 1px dotted black;
+  }
   body .contenedor-menu {
     width: 100%;
     margin-bottom: 10px;
@@ -828,15 +798,6 @@ section .cartas-inicio:hover {
   body .contendor-quienes-form .contenedor-form {
     width: 100%;
     border: black 1px solid;
-  }
-  body .contenedor-contacto {
-    display: flex;
-    flex-direction: column;
-  }
-  body .contenedor-contacto .contacto {
-    margin: 10px;
-    width: 100%;
-    border-top: 1px dotted black;
   }
   body .contenedor-colabo {
     width: 100%;
@@ -979,6 +940,277 @@ section .cartas-inicio:hover {
     margin: auto;
     padding: 5px;
   }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
+    /*****TITULOS Y SUBTITULOS*****/
+    /******MEDIA QUERIE TABLET INCIO*****/
+    /*****MEDIA QUERIE TABLET COLABORACIONES*****/
+    /*****GALERIA MEDIA TABLET QUERIE*****/
+    /*****NOTICIAS MEDIA QUERIE*****/
+    /*****PUBLICACIONES MEDIA QUERIE TABLET*****/
+    /*****TRABAJOS MEDIA QUERIE*****/
+  }
+  body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body .titulo-pincipal {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: monospace;
+  }
+  body .subtitulo-general {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    margin: auto;
+  }
+  body .descripcion-general {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 20px;
+    font-family: monospace;
+    margin-bottom: 10px;
+  }
+  body .contenedor-contacto {
+    display: flex;
+    flex-direction: column;
+  }
+  body .contenedor-contacto .contacto {
+    margin: 10px;
+    width: 100%;
+    border-top: 1px dotted black;
+  }
+  body .tren-portadas {
+    display: flex;
+    width: 90%;
+    margin: auto;
+  }
+  body .contendor-quienes-form {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+  body .contendor-quienes-form .quienes-somos {
+    width: 100%;
+  }
+  body .contendor-quienes-form .contenedor-form {
+    width: 60%;
+    height: 500px;
+    margin: auto;
+  }
+  body .contenedor-colabo {
+    width: 100%;
+  }
+  body .contenedor-colabo .contenedor-portadas {
+    width: 50%;
+    opacity: 90%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contenedor-colabo .contenedor-portadas:hover {
+    width: 49%;
+    opacity: 100%;
+    padding: 0px;
+  }
+  body .contenedor-colabo .contenedor-portadas-cinco {
+    width: 50%;
+    opacity: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contenedor-colabo .contenedor-portadas-cinco:hover {
+    width: 49%;
+    opacity: 100%;
+    padding: 0px;
+  }
+  body .contenedor-colabo .contenedor-portadas-tres {
+    width: 50%;
+    opacity: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contenedor-colabo .contenedor-portadas-tres:hover {
+    width: 49%;
+    opacity: 100%;
+    padding: 0px;
+  }
+  body .galeria-uno {
+    width: 100%;
+  }
+  body .galeria-uno .fotos-videos {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    transition: 1s;
+    opacity: 60%;
+  }
+  body .galeria-uno .fotos-videos:hover {
+    width: 100%;
+    opacity: 100%;
+  }
+  body .galeria-uno .fotos-videos-dos {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    transition: 1s;
+    opacity: 60%;
+  }
+  body .galeria-uno .fotos-videos-dos:hover {
+    width: 100%;
+    opacity: 100%;
+  }
+  body .contendor-nuevo-proyecto-uno {
+    width: 100%;
+    margin: auto;
+  }
+  body .contendor-nuevo-proyecto-uno .madafaka-camon {
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto-uno .madafaka-camon img {
+    width: 100%;
+  }
+  body .contendor-nuevo-proyecto-uno .descripcion-cm {
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto-uno .concurso-mate {
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto-uno .concurso-mate img {
+    width: 100%;
+  }
+  body .contendor-nuevo-proyecto {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto:hover {
+    padding: 1px;
+  }
+  body .contendor-nuevo-proyecto .carta-np {
+    width: 30%;
+    opacity: 100%;
+    margin: auto;
+    padding: 0px;
+  }
+  body .contendor-nuevo-proyecto .carta-np:hover {
+    border: 3px solid white;
+    box-shadow: 3px 3px 5px white;
+  }
+  body .contendor-nuevo-proyecto .carta-np .descripcion-carta {
+    padding: 20px;
+  }
+  body .contendor-nuevo-proyecto .carta-cronicas-azul {
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto .cartas-proyecto-ca {
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contendor-nuevo-proyecto .cartas-proyecto-cv {
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contenedor-publicaciones {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+  body .contenedor-publicaciones .img-descr-p {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+  }
+  body .contenedor-publicaciones .img-descr-p:hover {
+    width: 50%;
+    padding: 0px;
+  }
+  body .contenedor-publicaciones .img-descr-p .img-p {
+    width: 100%;
+    height: 55%;
+    margin: auto;
+  }
+  body .contenedor-publicaciones .img-descr-p .img-p img {
+    width: 100%;
+  }
+  body .contenedor-publicaciones .img-descr-p .img-p .img-p-dos {
+    width: 100%;
+    height: 40%;
+  }
+  body .contenedor-publicaciones .img-descr-p .img-p .img-p-dos img {
+    width: 100%;
+  }
+  body .contenedor-publicaciones .img-descr-p .descripcion-p {
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    padding: 10px;
+  }
+  body .contenedor-publicaciones .descripcion-p-dos {
+    width: 80%;
+    height: 45%;
+    margin: auto;
+    padding: 10px;
+  }
+  body .contenedor-par-trab {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
+}
+.compra {
+  font-family: monospace;
+  margin: 1px 20% 10px 30%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+/*FOOTER: PIE DE PAGINA*/
+.contenedor-contacto {
+  width: 100%;
+  border-top: 1px white dashed;
+  margin: 30px 5px 30px 5px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedor-contacto .contacto {
+  margin: 20px 5px 30px 5px;
+  padding: 20;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+}
+.contenedor-contacto .contacto ul {
+  list-style: none;
+}
+.contenedor-contacto .contacto ul li p {
+  color: white;
+  font-size: 15px;
+}
+.contenedor-contacto .contacto form ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -113,7 +113,7 @@ section {
 
         .indicacion {
             display: block;
-            color: $color1;
+            color: white;
             text-align: center;
             font-size: 20px;
             font-family: $fuente;
@@ -135,7 +135,7 @@ section {
 
             &:focus {
                 background-color: $color1;
-                color: white;
+                color: black;
                 border: 1px solid white;
                 border-radius: 10px;
                 box-shadow: 3px 3px 3px white;

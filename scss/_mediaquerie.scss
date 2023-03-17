@@ -36,7 +36,18 @@
             margin-bottom: 10px;
         }
 
-        /******MEDIA QUERIE INCIO*****/
+        .contenedor-contacto {
+            display: flex;
+            flex-direction: column;
+
+            .contacto {
+                margin: 10px;
+                width: 100%;
+                border-top: 1px dotted black;
+            }
+        }
+
+        /******MEDIA QUERIE MOBILE INCIO*****/
 
         .contenedor-menu {
             width: 100%;
@@ -75,17 +86,6 @@
                 border: black 1px solid;
             }
 
-        }
-
-        .contenedor-contacto {
-            display: flex;
-            flex-direction: column;
-
-            .contacto {
-                margin: 10px;
-                width: 100%;
-                border-top: 1px dotted black;
-            }
         }
 
 
@@ -275,10 +275,300 @@
             margin: auto;
             padding: 5px;
         }
+    }
+}
 
-       
+@media (min-width:481px) and (max-width:1024px) {
+    body {
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-        
+        /*****TITULOS Y SUBTITULOS*****/
+
+        .titulo-pincipal {
+            color: $color1;
+            text-align: center;
+            font-size: $titulotablet;
+            text-transform: uppercase;
+            font-family: $fuente;
+        }
+
+        .subtitulo-general {
+            color: $color1;
+            text-align: center;
+            font-size: $subtitulotablet;
+            font-family: $fuente;
+            margin: auto;
+        }
+
+        .descripcion-general {
+            color: $color1;
+            text-align: center;
+            font-size: $descripciontablet;
+            line-height: 20px;
+            font-family: $fuente;
+            margin-bottom: 10px;
+        }
+
+        .contenedor-contacto {
+            display: flex;
+            flex-direction: column;
+
+            .contacto {
+                margin: 10px;
+                width: 100%;
+                border-top: 1px dotted black;
+            }
+        }
+
+
+        /******MEDIA QUERIE TABLET INCIO*****/
+
+        .tren-portadas {
+            display: flex;
+            width: 90%;
+            margin: auto;
+
+        }
+
+        .contendor-quienes-form {
+            width: 100%;
+            margin: auto;
+            padding: 10px;
+
+            .quienes-somos {
+                width: 100%;
+            }
+
+            .contenedor-form {
+                width: 60%;
+                height: 500px;
+                margin: auto;
+
+            }
+        }
+
+
+        /*****MEDIA QUERIE TABLET COLABORACIONES*****/
+
+        .contenedor-colabo {
+            width: 100%;
+
+            .contenedor-portadas {
+                width: 50%;
+                opacity: 90%;
+                margin: auto;
+                padding: 5px;
+
+                &:hover {
+                    width: 49%;
+                    opacity: 100%;
+                    padding: 0px;
+                }
+            }
+
+            .contenedor-portadas-cinco {
+                width: 50%;
+                opacity: 100%;
+                margin: auto;
+                padding: 5px;
+
+                &:hover {
+                    width: 49%;
+                    opacity: 100%;
+                    padding: 0px;
+                }
+            }
+
+            .contenedor-portadas-tres {
+                width: 50%;
+                opacity: 100%;
+                margin: auto;
+                padding: 5px;
+
+                &:hover {
+                    width: 49%;
+                    opacity: 100%;
+                    padding: 0px;
+                }
+            }
+
+        }
+
+        /*****GALERIA MEDIA TABLET QUERIE*****/
+
+        .galeria-uno {
+            width: 100%;
+
+            .fotos-videos {
+                width: 90%;
+                margin: auto;
+                padding: 5px;
+                transition: 1s;
+                opacity: 60%;
+
+                &:hover {
+                    width: 100%;
+                    opacity: 100%;
+                }
+            }
+
+            .fotos-videos-dos {
+                width: 90%;
+                margin: auto;
+                padding: 5px;
+                transition: 1s;
+                opacity: 60%;
+
+                &:hover {
+                    width: 100%;
+                    opacity: 100%;
+                }
+
+
+            }
+        }
+
+        /*****NOTICIAS MEDIA QUERIE*****/
+        .contendor-nuevo-proyecto-uno {
+            width: 100%;
+            margin: auto;
+
+            .madafaka-camon {
+                width: 60%;
+                margin: auto;
+                padding: 5px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .descripcion-cm {
+                width: 60%;
+                margin: auto;
+                padding: 5px;
+            }
+
+            .concurso-mate {
+                width: 60%;
+                margin: auto;
+                padding: 5px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .contendor-nuevo-proyecto {
+            width: 100%;
+            margin: auto;
+            padding: 5px;
+
+            &:hover {
+                padding: 1px;
+            }
+
+            .carta-np {
+                width: 30%;
+                opacity: 100%;
+                margin: auto;
+                padding: 0px;
+
+                &:hover {
+                    border: 3px solid white;
+                    box-shadow: 3px 3px 5px white;
+                }
+
+                .descripcion-carta {
+                    padding: 20px;
+                }
+            }
+
+            .carta-cronicas-azul {
+                width: 50%;
+                margin: auto;
+                padding: 5px;
+            }
+
+            .cartas-proyecto-ca {
+                width: 50%;
+                margin: auto;
+                padding: 5px;
+            }
+
+            .cartas-proyecto-cv {
+                width: 50%;
+                margin: auto;
+                padding: 5px;
+            }
+        }
+
+        /*****PUBLICACIONES MEDIA QUERIE TABLET*****/
+        .contenedor-publicaciones {
+            width: 100%;
+            margin: auto;
+            padding: 5px;
+
+            .img-descr-p {
+                width: 40%;
+                margin: auto;
+                padding: 10px;
+
+                &:hover {
+                    width: 50%;
+                    padding: 0px;
+                }
+
+                .img-p {
+                    width: 100%;
+                    height: 55%;
+                    margin: auto;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .img-p-dos {
+                        width: 100%;
+                        height: 40%;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .descripcion-p {
+                    width: 80%;
+                    height: 45%;
+                    margin: auto;
+                    padding: 10px;
+
+                }
+
+            }
+
+            .descripcion-p-dos {
+                width: 80%;
+                height: 45%;
+                margin: auto;
+                padding: 10px;
+            }
+
+        }
+
+        /*****TRABAJOS MEDIA QUERIE*****/
+
+        .contenedor-par-trab {
+            width: 100%;
+            margin: auto;
+            padding: 5px;
+        }
 
     }
 }
