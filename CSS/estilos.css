@@ -771,6 +771,19 @@ section .cartas-inicio:hover {
     width: 100%;
     border-top: 1px dotted black;
   }
+  body .contenedor-contacto .derechos {
+    width: 100%;
+    line-height: 20px;
+  }
+  body .contenedor-contacto .derechos .derecho-negrita {
+    font-size: 15px;
+  }
+  body .contenedor-contacto .derechos .derecho-informacion {
+    font-size: 10px;
+  }
+  body .contenedor-contacto .derechos .derecho-nombre {
+    font-size: 10px;
+  }
   body .contenedor-menu {
     width: 100%;
     margin-bottom: 10px;
@@ -986,6 +999,19 @@ section .cartas-inicio:hover {
     margin: 10px;
     width: 100%;
     border-top: 1px dotted black;
+  }
+  body .contenedor-contacto .derechos {
+    width: 100%;
+    line-height: 20px;
+  }
+  body .contenedor-contacto .derechos .derecho-negrita {
+    font-size: 20px;
+  }
+  body .contenedor-contacto .derechos .derecho-informacion {
+    font-size: 15px;
+  }
+  body .contenedor-contacto .derechos .derecho-nombre {
+    font-size: 15px;
   }
   body .tren-portadas {
     display: flex;

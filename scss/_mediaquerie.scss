@@ -39,11 +39,30 @@
         .contenedor-contacto {
             display: flex;
             flex-direction: column;
+          
 
             .contacto {
                 margin: 10px;
                 width: 100%;
                 border-top: 1px dotted black;
+            }
+            .derechos{
+                width: 100%;
+                line-height: 20px;
+               
+                
+                .derecho-negrita{
+                    font-size: 15px;
+                }
+                .derecho-informacion{
+                    font-size: 10px;
+                    
+                    
+                }
+                .derecho-nombre{
+                    font-size: 10px;
+                    
+                }
             }
         }
 
@@ -321,6 +340,24 @@
                 margin: 10px;
                 width: 100%;
                 border-top: 1px dotted black;
+            }
+            .derechos{
+                width: 100%;
+                line-height: 20px;
+               
+                
+                .derecho-negrita{
+                    font-size: 20px;
+                }
+                .derecho-informacion{
+                    font-size: 15px;
+                    
+                    
+                }
+                .derecho-nombre{
+                    font-size: 15px;
+                    
+                }
             }
         }
 
